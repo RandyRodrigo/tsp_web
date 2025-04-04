@@ -1,21 +1,29 @@
+---
+import { getI18N } from '../i18n';
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
+---
 <header id="header-nav" class="fixed w-screen py-4 z-50 top-0 px-8 lg:px-0">
     <div class="grid grid-cols-3 max-w-7xl mx-auto items-center justify-between">
-        <a href="/" class="col-span-1">
-            <img src="/images/logotspn.png" width="100" alt="TSP-Negocios" />
+        <a class="hover:opacity-100 opacity-70 transition-opacity duration-300 block"
+        href="/"
+        target="_blank"
+        rel="noreferrer">
+            <img src="/images/logoTSP.svg" width="100" alt="TSP-Negocios"/>
         </a>
         <nav class="col-span-1 justify-self-center">
             <ul class="flex gap-4 text-white">
                 <li>
-                    <a class="hover:underline" href="#">INFO</a>
+                    <a class="text__glowing" href="#">{i18n.HEADER_1}</a>
                 </li>
                 <li>
-                    <a class="hover:underline" href="#">ARCHIVO</a>
+                    <a class="text__glowing" href="#">{i18n.HEADER_2}</a>
                 </li>
             </ul>
         </nav>
-        <a href="#" class="text-white border rounded-full inline-block border-white px-4 py-2
+        <a href="https://wa.me/+51908915072" target="_blank" class="text-white border rounded-full inline-block border-white px-4 py-2
         justify-self-end hover:bg-white hover:text-black duration-300">
-            Contacto
+            {i18n.HEADER_BUTTON}
         </a>
     </div>
 </header>

@@ -2,7 +2,7 @@
 import '../styles/global.css'
 import '../styles/styles.css'
 import '@fontsource-variable/onest'
-import Header from '../components/Header.astro';
+import Header from "@components/Header.astro"
 
 interface Props {
 	description: string
@@ -99,4 +99,17 @@ const { currentLocale } = Astro
 			backdrop-filter: blur(10px);
 		}		
 	}
+
+	.text__glowing {
+     transition: text-shadow 0.3s ease; 
+   }
+ 
+   .text__glowing:hover {
+     text-shadow: 
+       0 0 10px #fff,
+       0 0 20px #fff,
+       0 0 40px #fff,
+       0 0 80px #fff,
+       0 0 120px #fff;
+   }
 </style>

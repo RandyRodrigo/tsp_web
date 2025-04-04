@@ -1,0 +1,134 @@
+---
+import BentoItem from "./BentoItem.astro";
+---
+
+<section class="text-xl text-left px-20 max-w-[60ch] text-pretty mx-auto mt-24 mb-0">
+    <h1 class="text-5xl font-semibold text-center text-wrap mx-auto mb-0 tracking-wide">
+        Nuestros Servicios y Productos
+    </h1>
+</section>
+<section
+  class={`
+    w-full max-w-[1400px]
+    grid lg:grid-cols-10 auto-rows-[25rem] gap-4
+    mx-auto p-6 md:p-12 lg:p-20
+  `}
+>
+    <BentoItem class="col-span-3 md:col-span-3" title="Facturación Electrónica">
+        <div 
+            slot="image" 
+            class="absolute left-0 top-0 bottom-0 w-full
+                h-full group-hover:scale-110 transition-scale duration-1000
+                ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover 
+                bg-no-repeat -z-10"
+            style="background-image: url(/images/tspfacpro.png);">
+        </div>
+        <p slot="content" class="max-w-xl">
+            Sistema de Facturación Electrónica y gestión empresarial. Control total, fácil y con reportes precisos.
+        </p>
+    </BentoItem>
+    <BentoItem class="col-span-3 md:col-span-3" title="Sistema Grastronómico (Chef)">
+        <div 
+            slot="image" 
+            class="absolute left-0 top-0 bottom-0 w-full
+                h-full group-hover:scale-110 transition-scale duration-1000
+                ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover 
+                bg-no-repeat -z-10"
+            style="background-image: url(/images/LogoChef2.png);">
+        </div>
+        <p slot="content" class="max-w-xl">
+            Aumenta la productividad y disminuye los tiempos de tareas garantizando la satisfacción de tus clientes.
+        </p>
+    </BentoItem>
+    <BentoItem class="col-span-3 md:col-span-3" title="Sistema Parking">
+        <div 
+            slot="image" 
+            class="absolute left-0 top-0 bottom-0 w-full
+                h-full group-hover:scale-110 transition-scale duration-1000
+                ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover 
+                bg-no-repeat -z-10"
+            style="background-image: url(/images/ParkingLogo.png);">
+        </div>
+        <p slot="content" class="max-w-xl">
+            Gestiona los tiempos y tarifas de los vehiculos alojados en tu aparcamiento.
+        </p>
+    </BentoItem>
+    <BentoItem class="col-span-3 md:col-span-3" title="Páginas Web">
+        <div 
+            slot="image" 
+            class="absolute left-0 top-0 bottom-0 w-full
+                h-full group-hover:scale-110 transition-scale duration-1000
+                ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover 
+                bg-no-repeat -z-10"
+            style="background-image: url(/images/PaginaWebLogo.png);">
+        </div>
+        <p slot="content" class="max-w-xl">
+            Construimos tu página web mediante diseños creativos de alto impacto visual para atraer más clientes.
+        </p>
+    </BentoItem>
+    <BentoItem class="col-span-3 md:col-span-3" title="Tienda Virtual">
+        <div 
+            slot="image" 
+            class="absolute left-0 top-0 bottom-0 w-full
+                h-full group-hover:scale-110 transition-scale duration-1000
+                ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover 
+                bg-no-repeat -z-10"
+            style="background-image: url(/images/TiendaVirtualLogo.png);">
+        </div>
+        <p slot="content" class="max-w-xl">
+            Creamos tu tienda virtual y la dejamos lista para empezar a vender. Publica tus productos y empieza a recibir pedidos en tiempo real.
+        </p>
+    </BentoItem>
+    <BentoItem class="col-span-3 md:col-span-3" title="Landing Pages">
+        <div 
+            slot="image" 
+            class="absolute left-0 top-0 bottom-0 w-full
+                h-full group-hover:scale-110 transition-scale duration-1000
+                ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover 
+                bg-no-repeat -z-10"
+            style="background-image: url(/images/LandingPage.png);">
+        </div>
+        <p slot="content" class="max-w-xl">
+            Diseñamos la página de aterrizaje para tu campaña digital, optimizada para lograr tus objetivos y ayudarte a ganar más clientes a un bajo costo.
+        </p>
+    </BentoItem>
+    <BentoItem class="col-span-3 md:col-span-3" title="Hosting, Dominio y Correos">
+        <div 
+            slot="image" 
+            class="absolute left-0 top-0 bottom-0 w-full
+                h-full group-hover:scale-110 transition-scale duration-1000
+                ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover 
+                bg-no-repeat -z-10"
+            style="background-image: url(/images/DominioLogo.png);">
+        </div>
+        <p slot="content" class="max-w-xl">
+            Los servicios de alojamiento web, permiten que su negocio, llegue fácilmente a millones de usuarios en su comunidad y el resto del mundo.
+        </p>
+    </BentoItem>
+    <BentoItem class="col-span-3 md:col-span-3" title="Equipos Informáticos">
+        <div 
+            slot="image" 
+            class="absolute left-0 top-0 bottom-0 w-full
+                h-full group-hover:scale-110 transition-scale duration-1000
+                ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover 
+                bg-no-repeat -z-10"
+            style="background-image: url(/images/Equipo.png);">
+        </div>
+        <p slot="content" class="max-w-xl">
+            Vendemos productos de última tecnología a los mejores precios y reparamos sus equipos como nuevos.
+        </p>
+    </BentoItem>
+    <BentoItem class="col-span-3 md:col-span-3" title="Marketing Digital">
+        <div 
+            slot="image" 
+            class="absolute left-0 top-0 bottom-0 w-full
+                h-full group-hover:scale-110 transition-scale duration-1000
+                ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover 
+                bg-no-repeat -z-10"
+            style="background-image: url(/images/MarketingDigitalLogo.png);">
+        </div>
+        <p slot="content" class="max-w-xl">
+            Posicionamos su negocio en los primeros buscadores de internet y hacemos campañas publicitarias para que su negocio siga creciendo.
+        </p>
+    </BentoItem>
+</section>

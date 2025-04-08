@@ -1,29 +1,182 @@
 {
-    "SEO_TITLE": "TSP Business",
-    "SEO_DESCRIPTION": "A company with many years of experience and success stories, we have the complete team necessary to develop a website that serves to do business.",
-    "HEADER_1": "INFO",
-    "HEADER_2": "FILE",
-    "HEADER_BUTTON": "CONTACT",
-    "INTRO_TITLE": "Welcome to TSP Business",
-    "INTRO_DESCRIPTION_1": "At TSP-Business, we transform ideas into digital opportunities. <strong>With years of experience and numerous success stories</strong>, we have worked alongside large companies and entrepreneurs to enhance their online presence.",
-    "INTRO_DESCRIPTION_2": "We have a <strong>highly qualified team</strong>, ready to design and develop strategic websites that drive <strong>your business growth</strong>. Our approach combines technology, creativity, and functionality to deliver tailored solutions that <strong>generate results</strong>.",
-    "BENTO_TITLE": "Our Services and Products",
-    "BENTO_TITLE_1": "Electronic Billing",
-    "BENTO_CONTENT_1": "Electronic Billing and business management system. Total control, easy to use, with precise reports.",
-    "BENTO_TITLE_2": "Gastronomic System (Chef)",
-    "BENTO_CONTENT_2": "Increase productivity and reduce task times, ensuring customer satisfaction.",
-    "BENTO_TITLE_3": "Parking System",
-    "BENTO_CONTENT_3": "Manage the time and rates of vehicles in your parking lot.",
-    "BENTO_TITLE_4": "Web Pages",
-    "BENTO_CONTENT_4": "We build your website with creative designs of high visual impact to attract more customers.",
-    "BENTO_TITLE_5": "Virtual Store",
-    "BENTO_CONTENT_5": "We create your virtual store and leave it ready to start selling. Publish your products and start receiving orders in real time.",
-    "BENTO_TITLE_6": "Landing Pages",
-    "BENTO_CONTENT_6": "We design the landing page for your digital campaign, optimized to achieve your goals and help you gain more customers at a low cost.",
-    "BENTO_TITLE_7": "Hosting, Domain, and Emails",
-    "BENTO_CONTENT_7": "Web hosting services allow your business to easily reach millions of users in your community and the rest of the world.",
-    "BENTO_TITLE_8": "IT Equipment",
-    "BENTO_CONTENT_8": "We sell the latest technology products at the best prices and repair your equipment to make it like new.",
-    "BENTO_TITLE_9": "Digital Marketing",
-    "BENTO_CONTENT_9": "We position your business in the top search engines and run advertising campaigns to keep your business growing."
+  "SEO_TITLE": "TSP Business",
+  "SEO_DESCRIPTION": "A company with many years of experience and success stories, we have the complete team necessary to develop a website that serves to do business.",
+  "SEO": {
+		"ARCHIVO_TITLE": "Archive of Previous Editions",
+		"ARCHIVO_DESCRIPTION": "Relive the best moments from past editions.",
+		"INFO_TITLE": "Information",
+		"INFO_DESCRIPTION_1": "Learn everything you need to know about the ESLAND Awards",
+		"INFO_DESCRIPTION_2": "and download the Press Kit.",
+		"VOTE_TITLE": "Vote for Your Favorite Content Creators",
+		"VOTE_DESCRIPTION": "Support your favorite content creators from Spain, Latin America, and Andorra by voting for them.",
+		"LEGAL_NOTICE_TITLE": "Legal Notice",
+		"LEGAL_NOTICE_DESCRIPTION": "The legal notice establishes the legal provisions and responsibilities related to the ESLAND Awards, addressing aspects such as terms of use, legal responsibilities, and agreements between the user and the responsible entity.",
+		"PRIVACY_POLICY_TITLE": "Privacy Policy",
+		"PRIVACY_POLICY_DESCRIPTION": "The Privacy Policy of the ESLAND Awards describes how personal data of users is collected, used, protected, and shared.",
+		"COOKIES_TITLE":"Cookie Policy - TSP Business",
+		"COOKIES_DESCRIPTION":"The Cookie Policy of the ESLAND Awards informs about the use of cookies and similar technologies on the website.",
+		"ERROR_404_TITLE": "404 Page not found",
+		"ERROR_404_DESCRIPTION": "Page not found (Error 404). Check the URL or explore our sections. Need help? Contact us."
+	},
+  "HEADER_1": "INFO",
+  "HEADER_2": "FILE",
+  "HEADER_BUTTON": "CONTACT",
+  "INTRO_TITLE": "Welcome to TSP Business",
+  "INTRO_DESCRIPTION_1": "At TSP-Business, we transform ideas into digital opportunities. <strong>With years of experience and numerous success stories</strong>, we have worked alongside large companies and entrepreneurs to enhance their online presence.",
+  "INTRO_DESCRIPTION_2": "We have a <strong>highly qualified team</strong>, ready to design and develop strategic websites that drive <strong>your business growth</strong>. Our approach combines technology, creativity, and functionality to deliver tailored solutions that <strong>generate results</strong>.",
+  "BENTO_TITLE": "Our Services and Products",
+  "BENTO_TITLE_1": "Electronic Billing",
+  "BENTO_CONTENT_1": "Electronic Billing and business management system. Total control, easy to use, with precise reports.",
+  "BENTO_TITLE_2": "Gastronomic System (Chef)",
+  "BENTO_CONTENT_2": "Increase productivity and reduce task times, ensuring customer satisfaction.",
+  "BENTO_TITLE_3": "Parking System",
+  "BENTO_CONTENT_3": "Manage the time and rates of vehicles in your parking lot.",
+  "BENTO_TITLE_4": "Web Pages",
+  "BENTO_CONTENT_4": "We build your website with creative designs of high visual impact to attract more customers.",
+  "BENTO_TITLE_5": "Virtual Store",
+  "BENTO_CONTENT_5": "We create your virtual store and leave it ready to start selling. Publish your products and start receiving orders in real time.",
+  "BENTO_TITLE_6": "Landing Pages",
+  "BENTO_CONTENT_6": "We design the landing page for your digital campaign, optimized to achieve your goals and help you gain more customers at a low cost.",
+  "BENTO_TITLE_7": "Hosting, Domain, and Emails",
+  "BENTO_CONTENT_7": "Web hosting services allow your business to easily reach millions of users in your community and the rest of the world.",
+  "BENTO_TITLE_8": "IT Equipment",
+  "BENTO_CONTENT_8": "We sell the latest technology products at the best prices and repair your equipment to make it like new.",
+  "BENTO_TITLE_9": "Digital Marketing",
+  "BENTO_CONTENT_9": "We position your business in the top search engines and run advertising campaigns to keep your business growing.",
+
+  "FOOTER": {
+    "DISCLAIMER": "Developed by TSP Business - All Rights Reserved.",
+    "LEGAL": {
+      "TITLE": "Legal",
+      "NOTICE": "Legal Notice",
+      "PRIVACY": "Privacy Policy",
+      "COOKIES": "Cookie Policy",
+      "PRIVACY_POLICY": "Privacy Policy",
+      "TOS": "Terms of Service"
+    },
+    "WEB_MAP": {
+      "TITLE": "Site Map",
+      "HOME": "Home",
+      "INFO": "Information",
+      "ARCHIVE": "Archive"
+    },
+    "PRODUCED_BY": "Produced by"
+  },
+
+  "COOKIES": {
+    "POLICIES": {
+      "TITLE": "Cookie Policy",
+      "DESCRIPTION_1": "This Cookie Policy is an integral part of the Legal Notice and Privacy Policy of the website www.tspnegocios.com (hereinafter referred to as 'the Website'), which is owned by TSP Negocios. (hereinafter referred to as 'TSP Negocios') with its registered office at avenue Carlos Alberto Izaguirre Nro. 216 Independencia Lima. TSP Negocios is responsible for the cookies and the processing of personal data obtained through both its own and third-party cookies used on this Website.",
+      "DESCRIPTION_2": "The Website uses third-party analytical cookies, specifically Google Analytics, to analyze user activity and compile statistics for the purpose of improving the Website.",
+      "DESCRIPTION_3": "You can accept all cookies, reject them, or configure your preferences in the cookie settings panel. At any time, you can revoke your consent or change your cookie preferences by accessing the settings panel again. Additionally, you can prevent the download of cookies or delete those that have been installed by adjusting the settings in your browser, thus preventing the storage of cookies on your device. It is very important that you read and understand this cookie policy.",
+      "DESCRIPTION_4": "We inform you of the possibility that rejecting or disabling cookies may affect or limit your browsing experience or the services provided on this Website."
+    },
+    "WHAT_IS": {
+      "TITLE": "What Are Cookies?",
+      "DESCRIPTION_1": "Cookies are small alphanumeric identifiers containing information that is installed on the user's device. They are downloaded to the user's web browser when a website is visited and serve primarily to recognize the user's device upon each subsequent visit to the Website. The main purpose of cookies is to improve website quality and offer better usage.",
+      "DESCRIPTION_2": "Cookies are small text files that are stored on the computer's hard drive and help to identify the user when they reconnect to the website. Their aim is to record the user's visit and save certain information. Their use is common and helps the website function more efficiently, providing greater personalization and analyzing user behavior."
+    },
+    "TYPES": {
+      "TITLE": "Types of Cookies",
+      "DESCRIPTION_1_TITLE": "1. According to the entity that manages them:",
+      "DESCRIPTION_1": "First-party cookies are installed on the user's terminal from the domain managed by the website owner, while third-party cookies are installed from a domain managed by entities other than the website owner.",
+      "DESCRIPTION_2_TITLE": "2. Depending on the duration of their activation:",
+      "DESCRIPTION_2": "Session cookies collect and store data while the user accesses a website and are deleted once the session ends. Persistent cookies remain on the user's terminal for a predefined period by the cookie manager or until they are deleted by the user.",
+      "DESCRIPTION_3_TITLE": "3. Technical cookies:",
+      "DESCRIPTION_3": "These cookies allow the user to navigate a website and use its various options or services. They are necessary for the operation of the site and cannot be rejected.",
+      "DESCRIPTION_4_TITLE": "4. Performance or functionality cookies:",
+      "DESCRIPTION_4": "These cookies remember user preferences for tools found on the website, so you don't have to reconfigure the service each time you visit. Examples include volume settings for video or sound players and video transmission speeds compatible with your browser. Users may disable these cookies, but this may impact the proper functioning of the website's services.",
+      "DESCRIPTION_5_TITLE": "5. Analytical or measurement cookies:",
+      "DESCRIPTION_5": "These cookies allow the monitoring and analysis of user behavior on the website to collect statistical data and improve the site's functionality. Such cookies are generated by an external provider every time a user visits a website.",
+      "DESCRIPTION_6_TITLE": "6. Advertising cookies:",
+      "DESCRIPTION_6": "These cookies collect information about the display duration or frequency of advertising positions, interaction with them, or user browsing patterns and behavior. They help to form an advertising interest profile and allow the delivery of advertisements tailored to the user's interests."
+    },
+    "BLOCK": {
+      "TITLE": "Reject, Configure, Disable, or Block Cookies:",
+      "DESCRIPTION_1": "Through the initial banner or cookie settings panel, which is always active and accessible, users have the option to accept or reject cookies and configure their preferences for cookies that require their consent.",
+      "DESCRIPTION_2": "Users may revoke their initial consent or modify their preferences at any time by accessing the cookie settings panel.",
+      "DESCRIPTION_3": "Moreover, users can block or delete cookies installed on their computer by configuring their browser options.",
+      "DESCRIPTION_4": "Different browsers can be set to notify users of the receipt of cookies and, if desired, prevent their installation. Users can also check which cookies are installed and their expiration period, and delete them if necessary. Information on how to do this in relation to the most common browsers can be found at the following links:",
+      "DESCRIPTION_5": "Chrome:",
+      "DESCRIPTION_5_URL": "https://support.google.com/chrome/answer/95647?hl=en",
+      "DESCRIPTION_6": "For more information on managing cookies in Internet Explorer:",
+      "DESCRIPTION_6_URL": "http://windows.microsoft.com/en-us/windows-vista/cookies-frequently-asked-questions",
+      "DESCRIPTION_7": "For more information on managing cookies in Mozilla Firefox:",
+      "DESCRIPTION_7_URL": "https://support.mozilla.org/en/kb/enable-and-disable-cookies-website-preferences",
+      "DESCRIPTION_8": "For more information on managing cookies in Safari:",
+      "DESCRIPTION_8_URL": "http://www.apple.com/legal/privacy/en-ww/cookies/",
+      "DESCRIPTION_9": "For more information on managing cookies in Opera:",
+      "DESCRIPTION_9_URL": "http://help.opera.com/Windows/11.50/en/cookies.html",
+      "DESCRIPTION_10": "To stop being tracked by Google Analytics, visit:",
+      "DESCRIPTION_10_URL": "http://tools.google.com/dlpage/gaoptout",
+      "DESCRIPTION_11": "Chrome:"
+    },
+    "MORE_INFO": {
+      "TITLE": "To Learn More About Cookies",
+      "DESCRIPTION_1": "You can learn more about online behavioral advertising and online privacy at the following link:",
+      "DESCRIPTION_1_URL": "http://www.youronlinechoices.com/es",
+      "DESCRIPTION_2": "Data protection in Google Analytics",
+      "DESCRIPTION_2_URL": "http://www.google.com/analytics/learn/privacy.html",
+      "DESCRIPTION_3": "How Google Analytics uses cookies:",
+      "DESCRIPTION_3_URL": "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage"
+    },
+    "THIRD_PARTY": {
+      "TITLE": "Third Parties and International Transfers",
+      "DESCRIPTION": "You can find information about the processing carried out by third parties and any potential data transfers to other countries by these third parties in the links provided in this cookie policy. Any applicable mechanisms for the regularization of international transfers, if they exist, will be detailed by these third parties."
+    },
+    "UPDATES": {
+      "TITLE": "Updates and Changes to the Cookie Policy",
+      "DESCRIPTION": "UBIQ may modify this Cookie Policy based on legislative requirements, regulatory changes, or with the aim of adapting the policy to instructions issued by the Spanish Data Protection Agency and the European Data Protection Committee. Therefore, users are advised to periodically visit this page. Significant changes to this policy will be communicated on the Website.",
+      "DATE": "Last updated: December 12, 2023."
+    },
+    "SITE_COOKIES": {
+      "TITLE": "Cookies Used on This Website",
+      "THEAD_NAME": "Name",
+      "THEAD_CADUCITY": "Expiration",
+      "THEAD_PROVIDER": "Provider",
+      "THEAD_FINALITY": "Purpose",
+      "ANALYTICS": [
+        {
+          "NAME": "_ga",
+          "EXPIRE": "2 years",
+          "PROVIDER": {
+            "NAME": "Google",
+            "URL": "https://google.com/"
+          },
+          "OBJECTIVE": "Used to distinguish users.",
+          "OBJECTIVE_URL": ""
+        },
+        {
+          "NAME": "_gid",
+          "EXPIRE": "24 hours",
+          "PROVIDER": {
+            "NAME": "Google",
+            "URL": "https://google.com/"
+          },
+          "OBJECTIVE": "Used to distinguish users.",
+          "OBJECTIVE_URL": ""
+        },
+        {
+          "NAME": "_ga_J8PJQBXG7J",
+          "EXPIRE": "2 years",
+          "PROVIDER": {
+            "NAME": "Google",
+            "URL": "https://google.com/"
+          },
+          "OBJECTIVE": "Used to maintain the session state.",
+          "OBJECTIVE_URL": ""
+        },
+        {
+          "NAME": "_gac_gb_J8PJQBXG7J",
+          "EXPIRE": "90 days",
+          "PROVIDER": {
+            "NAME": "Google",
+            "URL": "https://google.com/"
+          },
+          "OBJECTIVE": "Includes information related to the campaign. If you have linked your Google Analytics and Google Ads accounts, Google Ads website conversion tags will read this cookie, unless you disable it",
+          "OBJECTIVE_URL": "https://support.google.com/google-ads/answer/7521212?hl=es"
+        }
+      ]
+    }
+  }
 }

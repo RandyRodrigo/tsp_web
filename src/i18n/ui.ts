@@ -24,7 +24,7 @@ export const showDefaultLang = false;
 export const ui = {
 	es: {
 		'nav.inicio': 'Inicio',
-		'nav.info': 'Información',
+		'nav.servicio': 'Servicios',
 		'nav.archivo': 'Archivo',
 		'nav.legal': 'Aviso Legal',
 		'nav.privacidad': 'Privacidad',
@@ -32,7 +32,7 @@ export const ui = {
 	},
 	en: {
 		'nav.inicio': 'Home',
-		'nav.info': 'Information',
+		'nav.servicio': 'Services',
 		'nav.archivo': 'Archive',
 		'nav.legal': 'Legal Notice',
 		'nav.privacidad': 'Privacy',

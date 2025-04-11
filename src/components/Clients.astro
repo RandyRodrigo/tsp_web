@@ -1,25 +1,25 @@
+---
+import { getI18N } from "src/i18n";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+---
+
 <section>
   <div class="slider">
     <br /><br />
     <div class="row">
       <div class="col-lg-10 offset-lg-1">
-        <div
-          class="section-heading wow bounceIn"
-          data-wow-duration="1s"
-          data-wow-delay="0.2s"
-        >
           <h1
-            class="text-5xl font-semibold text-center text-wrap mx-auto mb-10 tracking-wide"
+            class="text-4xl font-semibold text-center text-wrap mx-auto mb-10 tracking-wide"
           >
-            Nuestros Clientes
+            {i18n.CLIENTS_TITLE}
           </h1>
           <h2
-            class="text-3xl font-semibold text-center text-wrap mx-auto mb-10 tracking-wide"
+            class="text-2xl font-semibold text-center text-wrap mx-auto mb-10 tracking-wide"
           >
-            Con nuestros<span> diseños &amp; soluciones</span> ayudamos <br /> a
-            empresas como:
+            {i18n.CLIENTS_SUBTITLE} <br /> {i18n.CLIENTS_SUBTITLE_AFTER_BR}
           </h2>
-        </div>
       </div>
     </div>
     <div class="slide-track">

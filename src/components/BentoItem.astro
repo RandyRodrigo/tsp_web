@@ -8,7 +8,7 @@ const { title } = Astro.props;
 
 <article class={`
   ${Astro.props.class}
-  col-span-5
+  col-span-8
   relative rounded-xl
   backdrop-blur-md
   border border-black/10
@@ -18,11 +18,11 @@ const { title } = Astro.props;
 `}>
     <div 
         class="absolute z-10 bottom-0 top-0 w-full h-full
-        bg-gradient-to-b from-transparent from-20% via-black/50 to-black/100">
+        bg-gradient-to-b from-transparent from-20% via-black/60 to-black/70">
     </div>
     <slot name="image"></slot>
     <div class="relative select-none flex flex-col gap-1 p-2 md:p-6 text-lg z-20 justify-end h-full">
-        <h2 class="text-3xl font-semibold text-balance mb-4">{title}</h2>
+        <h2 class="text-2xl font-semibold text-balance mb-4">{title}</h2>
         <slot name="content"></slot>
     </div>
     </article>

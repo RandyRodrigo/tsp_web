@@ -4,7 +4,7 @@ import '../components/styles/styles.css'
 import '@fontsource-variable/onest'
 import Header from "@components/Header.astro"
 import Footer from "@components/Footer.astro"
-
+import { ClientRouter } from 'astro:transitions'
 interface Props {
 	description: string
 	title: string
@@ -21,6 +21,7 @@ const { currentLocale } = Astro
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<title>{title}</title>
+		<ClientRouter />
 	</head>
 	<body>
 		<Header />

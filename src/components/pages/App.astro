@@ -6,6 +6,7 @@ import PreFooter from '@components/PreFooter.astro';
 import Clients from '@components/Clients.astro';
 import Video from '@components/Video.astro';
 import { getI18N } from 'src/i18n';
+import Numeros from '@components/Numeros.astro';
 
 const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
@@ -19,6 +20,7 @@ const i18n = getI18N({ currentLocale })
 
 	<main>
 		<Intro />
+		<Numeros />
 		<Bento />
 		<PreFooter />
 		<Clients />

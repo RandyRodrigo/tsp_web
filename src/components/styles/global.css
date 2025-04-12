@@ -114,3 +114,7 @@ button,[role=button] {
     transition-timing-function: cubic-bezier(.4,0,.2,1);
     transition-duration: .15s
 }
+
+.animate-ease-in-out {
+    animation-timing-function: cubic-bezier(.4,0,.2,1);
+}

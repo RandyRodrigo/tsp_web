@@ -32,6 +32,7 @@ export default function Button({ children, onClick,url, target, className, ...re
     border-white
     rounded-full
     uppercase
+    text-white
     ${styles.button}
     ${className ?? ''}`
   }

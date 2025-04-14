@@ -29,7 +29,7 @@ const { currentLocale } = Astro
 		<Footer />
 		<style is:global>
 			:root {
-			  color-scheme: dark;
+			  color-scheme: light;
 			  --entry-animation: -20px;
 			  --cover-animation: 20px;
 			}
@@ -40,21 +40,10 @@ const { currentLocale } = Astro
 				--cover-animation: 100px;
 			  }
 			}
-		
-			@font-face {
-			  font-family: "Tomaso";
-			  font-style: normal;
-			  font-weight: normal;
-			  font-display: swap;
-			  src: url("/fonts/tomaso.woff2") format("woff2");
-			  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
-				U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC,
-				U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-			}
-		
+				
 			html {
 			  font-family: "Onest Variable", system-ui, sans-serif;
-			  background: #00082D;
+			  background: #EFEFEF;
 			}
 		
 			
@@ -67,17 +56,23 @@ const { currentLocale } = Astro
 			  border-radius: 5px;
 			}
 			::-webkit-scrollbar-thumb {
-			  background: rgba(255, 255, 255, 0.3);
+			  background: rgb(191, 31, 23, 0.7);
 			  backdrop-filter: blur(10px);
 			  border-radius: 5px;
 			}
 			::-webkit-scrollbar-thumb:hover {
-			  background: rgba(255, 255, 255, 0.5);
+			  background: rgb(191, 31, 23);
 			}
 			
-		
+			h1 {
+				color: #BF1F17;
+			}
+
+			h2.text-rojo {
+				color: #BF1F17;
+			}
+
 			p {
-			  color: rgba(255, 255, 255, 0.9);
 			  line-height: 1.4;
 			  margin-bottom: 1em;
 			  font-weight: 100;
@@ -86,7 +81,7 @@ const { currentLocale } = Astro
 			}
 		
 			p strong {
-			  color: white;
+			  color: #BF1F17;
 			  font-weight: 700;
 			}
 		
@@ -108,9 +103,9 @@ const { currentLocale } = Astro
 			@keyframes blur {
 			  to {
 				box-shadow:
-				  0px 5px 50px -5px rgba(0, 0, 0, 0.1),
-				  0px 0px 0 1px rgba(0, 0, 0, 0.3);
-				background: rgba(0, 0, 0, 0.3);
+				  0px 5px 50px -5px rgba(255, 0, 0, 0.1),
+				  0px 0px 0 1px rgba(255, 0, 0, 0.3);
+				background: rgb(191, 31, 23, 0.7);
 				backdrop-filter: blur(10px);
 			  }
 			}

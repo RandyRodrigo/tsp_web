@@ -76,7 +76,7 @@
   -webkit-animation-name: fadeInUp;
 }
 
-.border-left {
+.border-left-right {
+  border-left: 2px solid #a7a7a7;
   border-right: 2px solid #a7a7a7;
-  padding-left: 20px;
 }

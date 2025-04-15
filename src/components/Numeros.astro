@@ -6,22 +6,22 @@ import { CountUp } from "./CountUp";
     <h2 class="text-4xl lg:text-4xl font-semibold text-center text-balance mb-10 lg:mb-20 text-rojo">
         Cotiza tu Sitio Web con TSP Negocios
     </h2>
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-y-10">
-        <div class="border-left flex flex-col justify-center items-center">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-y-10 divide-x-4 divide-red-700">
+        <div class="flex flex-col justify-center items-center">
             <span
                 class="number text-6xl font-bold text-balance tabular-nums tracking-tighter"
             >
                 +<CountUp client:visible initial={0} final={1500} />
             </span>
-            <span class="uppercase opacity-70">Proyectos Entregados</span>
+            <span class="uppercase opacity-70 text-center">Proyectos Entregados</span>
         </div>
-        <div class="border-left flex flex-col items-center justify-center">
+        <div class="flex flex-col items-center justify-center">
             <span
                 class="number text-6xl font-bold text-balance tabular-nums tracking-tighter"
             >
                 +<CountUp client:visible initial={0} final={1500} />
             </span>
-            <span class="uppercase opacity-70">Clientes Satisfechos</span>
+            <span class="uppercase opacity-70 text-center">Clientes Satisfechos</span>
         </div>
         <div class="flex flex-col items-center justify-center">
             <span
@@ -29,7 +29,7 @@ import { CountUp } from "./CountUp";
             >
                 +<CountUp client:visible initial={0} final={1000} />
             </span>
-            <span class="uppercase opacity-70">Recomendaciones</span>
+            <span class="uppercase opacity-70 text-center">Recomendaciones</span>
         </div>
     </div>
 </section>
@@ -37,6 +37,6 @@ import { CountUp } from "./CountUp";
 <style>
     .number {
         color: #BF1F17;
-        text-shadow: 0 0 10px rgba(146, 0, 0, 0.50);
+        text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
     }
 </style>

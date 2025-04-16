@@ -11,18 +11,18 @@ const { title } = Astro.props;
   col-span-12
   relative rounded-xl
   backdrop-blur-md
-  border border-white/10
-  shadow-inner shadow-white/100
+  border border-black/10
+  shadow-inner shadow-black/90
   overflow-hidden
   group
 `}>
     <div 
         class="absolute z-10 bottom-0 top-0 w-full h-full
-        bg-gradient-to-b from-transparent from-20% via-black/30 to-black/50">
+        bg-gradient-to-b from-transparent from-40% via-[#BF1F17]/50 to-[#BF1F17]/80">
     </div>
     <slot name="image"></slot>
     <div class="relative select-none flex flex-col gap-1 p-2 md:p-6 text-lg z-20 justify-end h-full">
-        <h2 class="text-2xl font-semibold text-balance mb-4 text-rojo">{title}</h2>
+        <h2 class="text-2xl font-semibold text-balance mb-4 text-white">{title}</h2>
         <slot name="content"></slot>
     </div>
     </article>

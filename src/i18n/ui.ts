@@ -1,5 +1,5 @@
-import SpainFlag from '@components/flags/Spain.astro';
-import UnitedStatesFlag from '@components/flags/UnitedStates.astro';
+import SpainFlag from '@/components/flags/Spain.astro';
+import UnitedStatesFlag from '@/components/flags/UnitedStates.astro';
 
 // Add missing imports
 export const LANGUAGES: Record<

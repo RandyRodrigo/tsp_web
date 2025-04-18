@@ -1,20 +1,18 @@
 ---
-import { getI18N } from "src/i18n"
-
-import Layout from "@layouts/Layout.astro"
-
-import CookieTypeDescriptionItem from "@components/cookies/CookieTitleDescriptionItem.astro"
-import CookieDescriptionLinkItem from "@components/cookies/CookieDescriptionLinkItem.astro"
-import CookieLink from "@components/cookies/CookieLink.astro"
+import { getI18N } from "@/i18n"
+import Layout from "@/layouts/Layout.astro"
+import CookieTypeDescriptionItem from "@/components/cookies/CookieTitleDescriptionItem.astro"
+import CookieDescriptionLinkItem from "@/components/cookies/CookieDescriptionLinkItem.astro"
+import CookieLink from "@/components/cookies/CookieLink.astro"
 
 const { currentLocale } = Astro
-
 const i18n = getI18N({ currentLocale })
 const H1_STYLES =
   "mx-auto mt-16 mb-4 text-wrap text-4xl font-semibold tracking-wide uppercase"
 ---
 
 <Layout title=`${i18n.SEO.COOKIES_TITLE}&nbsp;${new Date().getFullYear()}` description={i18n.SEO.COOKIES_DESCRIPTION}>
+  <div class="box"></div>
   <main>
     <section
       class="max-w-5xl mx-auto my-24 text-pretty px-6 text-left text-lg leading-relaxed sm:px-20"

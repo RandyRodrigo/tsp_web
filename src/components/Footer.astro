@@ -1,15 +1,15 @@
 ---
-import Facebook from "../assets/svg/facebook.svg";
-import Instagram from "../assets/svg/instagram.svg";
-import Youtube from "../assets/svg/youtube.svg";
-import Whatsapp from "../assets/svg/whatsapp.svg";
-import Link from "@components/Link.astro";
+import Facebook from "@/assets/svg/facebook.svg";
+import Instagram from "@/assets/svg/instagram.svg";
+import Youtube from "@/assets/svg/youtube.svg";
+import Whatsapp from "@/assets/svg/whatsapp.svg";
+import Link from "@/components/Link.astro";
 import {
   getLangFromUrl,
   useTranslations,
   useTranslatedPath,
-} from "../i18n/utils";
-import { getI18N } from "../i18n/index";
+} from "@/i18n/utils";
+import { getI18N } from "@/i18n/index";
 
 const { currentLocale } = Astro;
 const i18n = getI18N({ currentLocale });

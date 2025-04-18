@@ -119,3 +119,9 @@ button,[role=button] {
 .animate-ease-in-out {
     animation-timing-function: cubic-bezier(.4,0,.2,1);
 }
+
+.box {
+    width: px;
+    height: 80px;
+    background-color: #BF1F17;
+}

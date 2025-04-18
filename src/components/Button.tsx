@@ -1,4 +1,4 @@
-import styles from "@components/styles/Button.module.css"
+import styles from "@/components/styles/Button.module.css"
 
 interface Props {
   children?: preact.ComponentChildren

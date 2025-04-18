@@ -1,7 +1,7 @@
 ---
-import ChevronIcon from '@components/icons/Chevron.astro';
-import { LANGUAGES } from '../i18n/ui';
-import { getRouteFromUrl, useTranslatedPath, getLangFromUrl } from '../i18n/utils';
+import ChevronIcon from '@/components/icons/Chevron.astro';
+import { LANGUAGES } from '@/i18n/ui';
+import { getRouteFromUrl, useTranslatedPath, getLangFromUrl } from '@/i18n/utils';
 
 const route = getRouteFromUrl(Astro.url);
 const lang = getLangFromUrl(Astro.url);

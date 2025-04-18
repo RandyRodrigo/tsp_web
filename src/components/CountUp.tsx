@@ -1,5 +1,5 @@
 import { useEffect } from "preact/hooks";
-import { useProgressiveNumber } from "src/hooks/useProgressiveNumber";
+import { useProgressiveNumber } from "@/hooks/useProgressiveNumber";
 
 export const CountUp = (
     { initial, final, duration }: 

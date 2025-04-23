@@ -43,7 +43,7 @@ export const ui = {
 export const routes = {
 	es: {
 		vota: 'vota',
-		info: 'info',
+		servicio: 'servicio',
 		archivo: 'archivo',
 		'aviso-legal': 'aviso-legal',
 		privacidad: 'privacidad',
@@ -51,7 +51,7 @@ export const routes = {
 	},
 	en: {
 		vota: 'vote',
-		info: 'information',
+		servicio: 'service',
 		archivo: 'archive',
 		'aviso-legal': 'legal-notice',
 		privacidad: 'privacy',

@@ -1,20 +1,24 @@
 ---
 import Layout from '@/layouts/Layout.astro';
-import HeroContainer from '@/components/HeroContainer.astro';    
+import HeroContainer from '@/components/HeroContainer.astro';
+import { getI18N } from '@/i18n/index';
+
+const { currentLocale } = Astro;
+const i18n = getI18N({currentLocale});
 ---
 
 <Layout
-  title="Servicio"
-  description="Servicio">
-  <HeroContainer img=""/>
+  title=`${i18n.SEO.SERVICIO_TITLE}&nbsp;${new Date().getFullYear()}` description={i18n.SEO.SERVICIO_DESCRIPTION}>
+  <HeroContainer />
   <main class="pb-24">
     <section class="w-full max-w-[1400px] mx-auto my-24 gap-10 text-pretty px-6 text-left text-xl sm:px-20 flex flex-col md:flex-row items-center justify-between p-6 md:p-8">
       <div id="theater-text" class="md:w-1/2 space-y-4">
         <h1 class="mx-auto mb-10 text-balance text-left text-3xl lg:text-5xl font-semibold tracking-wide">
           Facturación Electrónica
-        </h1>
+        </h1> 
         <p>Sistema de Facturación Electrónica y gestión empresarial. Control total, fácil y con reportes precisos.</p>
         <p>Con el sistema de facturación electrónica, podrás llevar un control total de tus ventas y compras, generando reportes precisos y en tiempo real.</p>
+        <button id="theater" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">Mas Información</button>
       </div>
       <div id="theater" class="mt-6 md:mt-0 md:w-1/2 flex justify-center items-center">
         <img 
@@ -48,6 +52,7 @@ import HeroContainer from '@/components/HeroContainer.astro';
         </h1>
         <p>Aumenta la productividad y disminuye los tiempos de tareas garantizando la satisfacción de tus clientes.</p>
         <p>Podrás llevar un control de tus productos, menús, ventas y compras, generando reportes precisos y en tiempo real.</p>
+        <button id="trophies" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">Mas Información</button>
       </div>
     </section>
 
@@ -58,6 +63,7 @@ import HeroContainer from '@/components/HeroContainer.astro';
         </h1>
         <p>Gestiona los tiempos y tarifas de los vehiculos alojados en tu aparcamiento.</p>
         <p>Además, podrás gestionar los pagos de tus clientes y llevar un control de los vehículos que ingresan y salen de tu aparcamiento.</p>
+        <button id="theater" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">Mas Información</button>
       </div>
       <div id="theater" class="mt-6 md:mt-0 md:w-1/2 flex justify-center items-center">
         <img 
@@ -91,6 +97,7 @@ import HeroContainer from '@/components/HeroContainer.astro';
         </h1>
         <p>Construimos tu página web mediante diseños creativos de alto impacto visual para atraer más clientes.</p>
         <p>Contamos con los mejores diseñadores y programadores para garantizar la calidad de tu página web.</p>
+        <button id="trophies" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">Mas Información</button>
       </div>
     </section>
 
@@ -101,6 +108,7 @@ import HeroContainer from '@/components/HeroContainer.astro';
         </h1>
         <p>Creamos tu tienda virtual y la dejamos lista para empezar a vender. Publica tus productos y empieza a recibir pedidos en tiempo real.</p>
         <p>Contamos con un equipo de expertos que te ayudarán a crear la tienda virtual perfecta para tu negocio.</p>
+        <button id="theater" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">Mas Información</button>
       </div>
       <div id="theater" class="mt-6 md:mt-0 md:w-1/2 flex justify-center items-center">
         <img 
@@ -134,6 +142,7 @@ import HeroContainer from '@/components/HeroContainer.astro';
         </h1>
         <p>Diseñamos la página de aterrizaje para tu campaña digital, optimizada para lograr tus objetivos y ayudarte a ganar más clientes a un bajo costo.</p>
         <p>Contamos con un equipo de expertos en diseño de paginas para crear la landing page perfecta para tu negocio.</p>
+        <button id="trophies" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">Mas Información</button>
       </div>
     </section>
 
@@ -144,6 +153,7 @@ import HeroContainer from '@/components/HeroContainer.astro';
         </h1>
         <p>Los servicios de alojamiento web, permiten que su negocio, llegue fácilmente a millones de usuarios en su comunidad y el resto del mundo.</p>
         <p>Contamos con los mejores servidores y tecnología para garantizar la seguridad y velocidad de tu sitio web.</p>
+        <button id="theater" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">Mas Información</button>
       </div>
       <div id="theater" class="mt-6 md:mt-0 md:w-1/2 flex justify-center items-center">
         <img 
@@ -177,6 +187,7 @@ import HeroContainer from '@/components/HeroContainer.astro';
         </h1>
         <p>Vendemos productos de última tecnología a los mejores precios y reparamos sus equipos como nuevos.</p>
         <p>Contamos con un equipo de expertos en tecnología que te ayudarán a elegir el mejor equipo para tu negocio.</p>
+        <button id="trophies" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">Mas Información</button>
       </div>
     </section>
 
@@ -187,6 +198,7 @@ import HeroContainer from '@/components/HeroContainer.astro';
         </h1>
         <p>Posicinamos su negocio en los primeros buscadores de internet y hacemos campañas publicitarias para que su negocio siga creciendo.</p>
         <p>Contamos con un equipo de expertos en marketing digital que te ayudarán a crear la estrategia perfecta para tu negocio.</p>
+        <button id="theater" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">Mas Información</button>
       </div>
       <div id="theater" class="mt-6 md:mt-0 md:w-1/2 flex justify-center items-center">
         <img 

@@ -2,7 +2,7 @@
 import Button from '@/components/Button';
 
 interface Props {
-    img: string;
+    img?: string;
 }
 
 const { img } = Astro.props
@@ -24,7 +24,7 @@ const { img } = Astro.props
             <p class="text-white text-base md:text-lg max-w-xl text-center">
                 Aquí puedes encontrar información sobre nuestros servicios y cómo podemos ayudarte.
             </p>
-            <Button className="animate-fade-up uppercase" url="https://wa.me/+51908915072">Contacto
+            <Button className="animate-fade-up uppercase mmd:py-2 md:text-base lg:text-base text-white" url="https://wa.me/+51908915072">Contacto
             </Button>
         </div>
         <div class="col-span-2 md:col-span-2 flex flex-col justify-center items-center">

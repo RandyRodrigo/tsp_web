@@ -29,6 +29,7 @@ export const ui = {
 		'nav.legal': 'Aviso Legal',
 		'nav.privacidad': 'Privacidad',
 		'nav.cookies': 'Cookies',
+		'nav.contacto': 'Contacto'
 	},
 	en: {
 		'nav.inicio': 'Home',
@@ -37,6 +38,7 @@ export const ui = {
 		'nav.legal': 'Legal Notice',
 		'nav.privacidad': 'Privacy',
 		'nav.cookies': 'Cookies',
+		'nav.contacto': 'Contact'
 	}
 } as const;
 
@@ -48,6 +50,7 @@ export const routes = {
 		'aviso-legal': 'aviso-legal',
 		privacidad: 'privacidad',
 		cookies: 'cookies',
+		contacto: 'contacto',
 	},
 	en: {
 		vota: 'vote',
@@ -56,5 +59,6 @@ export const routes = {
 		'aviso-legal': 'legal-notice',
 		privacidad: 'privacy',
 		cookies: 'cookies',
+		contacto: 'contact',
 	}
 };

@@ -23,17 +23,14 @@ const translatePath = useTranslatedPath(lang);
   <div class="mx-auto w-full max-w-screen-xl p-4 px-6 py-6 lg:py-8">
     <div class="md:flex md:justify-between">
       <div class="mb-6 flex flex-col md:mb-0">
-        <a href="/" class="-mt-14 flex items-center justify-center">
-          <img class="h-auto w-35" src="/images/logoTSP.png" width="100" alt="TSP-Negocios" />
-        </a>
         <div class="mt-6 flex justify-center gap-x-6 text-white">
           <h2>{i18n.FOOTER.REDES}</h2>
         </div>
         <div class="mt-6 flex justify-center gap-x-6">
-          <a href="https://www.youtube.com/channel/UCp_airdP3K8eM4EGJhqtKWQ" target="_blank" class="text-white hover:text-yellow-300 hover:scale-125 transition"><Youtube /></a>
-          <a href="https://www.instagram.com/tspnegocios/" target="_blank" class="text-white hover:scale-125 transition hover:text-primary duration-300"><Instagram /></a>
-          <a href="https://wa.me/+51908915072" target="_blank" class="text-white hover:scale-125 transition hover:text-primary duration-300"><Whatsapp /></a>
-          <a href="https://www.facebook.com/tspnegociosoficial" target="_blank" class="text-white hover:scale-125 transition hover:text-primary duration-300"><Facebook /></a>
+          <a href="https://www.youtube.com/channel/UCp_airdP3K8eM4EGJhqtKWQ" target="_blank" class="hover:text-red-600 hover:scale-125 duration-300 text-white"><Youtube class="fill-current"/></a>
+          <a href="https://www.instagram.com/tspnegocios/" target="_blank" class="hover:scale-125 hover:text-red-600 duration-300 text-white"><Instagram class="fill-current"/></a>
+          <a href="https://wa.me/+51908915072" target="_blank" class="hover:scale-125 hover:text-red-600 duration-300 text-white"><Whatsapp class="fill-current"/></a>
+          <a href="https://www.facebook.com/tspnegociosoficial" target="_blank" class="hover:scale-125 hover:text-red-600 duration-300 text-white"><Facebook class="fill-current"/></a>
         </div>
       </div>
       <div class="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6">
@@ -45,7 +42,7 @@ const translatePath = useTranslatedPath(lang);
             <li>
               <Link
                 href={translatePath('/aviso-legal/')}
-                class="hover:underline hover:text-primary duration-300 text-white"
+                class="hover:underline hover:text-red-500 duration-300 text-white"
                 >
                 {t('nav.legal')}
               </Link>
@@ -53,7 +50,7 @@ const translatePath = useTranslatedPath(lang);
             <li>
               <Link
                 href={translatePath('/privacidad/')}
-                class="hover:underline hover:text-primary duration-300 text-white"
+                class="hover:underline hover:text-red-500 duration-300 text-white"
                 >
                 {t('nav.privacidad')}
               </Link>
@@ -61,7 +58,7 @@ const translatePath = useTranslatedPath(lang);
             <li>
               <Link
                 href={translatePath('/cookies/')}
-                class="hover:underline hover:text-primary duration-300 text-white"
+                class="hover:underline hover:text-red-500 duration-300 text-white"
               >
                 {t('nav.cookies')}
               </Link>
@@ -76,7 +73,7 @@ const translatePath = useTranslatedPath(lang);
             <li>
               <Link
                 href={translatePath('/')}
-                class="hover:underline hover:text-primary duration-300"
+                class="hover:underline hover:text-red-500 duration-300"
                 >
                 {t('nav.inicio')}
               </Link>
@@ -84,7 +81,7 @@ const translatePath = useTranslatedPath(lang);
             <li>
               <Link
                 href={translatePath('/servicio/')}
-                class="hover:underline hover:text-primary duration-300"
+                class="hover:underline hover:text-red-500 duration-300"
                 >
                 {t('nav.servicio')}
             </Link>
@@ -92,7 +89,7 @@ const translatePath = useTranslatedPath(lang);
             <li>
               <Link
                 href={translatePath('/archivo/')}
-                class="hover:underline hover:text-primary duration-300"
+                class="hover:underline hover:text-red-500 duration-300"
                 >
                 {t('nav.archivo')}
               </Link>
@@ -104,11 +101,11 @@ const translatePath = useTranslatedPath(lang);
               {i18n.FOOTER.PRODUCED_BY}
             </h2>
             <a
-              class="hover:opacity-100 opacity-70 transition-opacity duration-300 block"
+              class="hover:opacity-100 opacity-70 transition-opacity duration-300 block flex justify-center"
               href={translatePath('/')}
               rel="noreferrer"
             >
-            <img class="size-25" loading="lazy" src="/images/logoTSP.svg" alt="Logo TSP-Negocios" />
+            <img class="size-30" loading="lazy" src="/images/logoTSP.svg" alt="Logo TSP-Negocios" />
             </a>
           </div>
       </div>

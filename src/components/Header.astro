@@ -26,14 +26,14 @@ const translatePath = useTranslatedPath(lang);
       class="relative z-10"
     >
       <img
-        class="w-25 m-auto transition-opacity duration-300 hover:opacity-100"
+        class="w-25 m-auto hover:opacity-100 opacity-90 transition-opacity duration-300 block flex justify-center"
         src="/images/logoTSP.svg"
         alt="TSP-Negocios"
       />
     </HeaderLink>
     <nav
       id="header-menu"
-      class="text-white fixed w-full h-dvh inset-0 bg-[#404141]/90 md:text-xl lg:text-xl flex flex-col items-center justify-center gap-8 -translate-y-full transition-transform duration-300 target:translate-y-0 md:static md:h-[initial] md:bg-[initial] md:flex-row md:translate-y-[initial]"
+      class="text-white fixed w-full h-dvh inset-0 bg-[#BF1F17]/90 md:text-xl lg:text-xl flex flex-col items-center justify-center gap-8 -translate-y-full transition-transform duration-300 target:translate-y-0 md:static md:h-[initial] md:bg-[initial] md:flex-row md:translate-y-[initial]"
     >
       <HeaderLink class="text__glowing" href={translatePath("/servicio/")}>
         {t("nav.servicio")}
@@ -43,8 +43,7 @@ const translatePath = useTranslatedPath(lang);
       </HeaderLink>
       <LanguageSelector />
       <Button
-        className="mmd:py-2 md:ml-auto md:text-base lg:text-base" url={translatePath("/contacto/")} target=""
-      >
+        className="lg:text-2xl md:px-5 md:text-xl text-xs w-fit font-medium no-underline px-3 py-3 border border-solid border-white rounded-full uppercase _button_10p5w_1 md:py-2 md:ml-auto md:text-base lg:text-base" target="" url={translatePath("/contacto/")}>
         {i18n.HEADER_BUTTON}
       </Button>
       <a href="#header-nav" class="md:hidden absolute top-6 right-6">

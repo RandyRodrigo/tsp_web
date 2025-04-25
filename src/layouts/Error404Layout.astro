@@ -1,0 +1,109 @@
+---
+import { ClientRouter } from "astro:transitions"
+import "@fontsource-variable/onest"
+import '@/styles/global.css'
+import '@/styles/styles.css'
+
+interface Props {
+  description: string
+  title: string
+}
+
+const { description, title } = Astro.props
+const { currentLocale } = Astro
+---
+
+<!doctype html>
+<html lang={currentLocale}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="robots" content="nofollow, noindex" />
+    <title>{title}</title>
+    <slot name="preload" />
+    <ClientRouter />
+  </head>
+
+  <body>
+    <main>
+        <slot />
+    </main>
+  </body>
+</html>
+    <style is:global>
+      :root {
+        color-scheme: dark;
+        --entry-animation: -20px;
+        --cover-animation: 20px;
+      }
+
+      @media (min-width: 1400px) {
+        :root {
+          --entry-animation: -100px;
+          --cover-animation: 100px;
+        }
+      }
+
+      html {
+        font-family: "Onest Variable", system-ui, sans-serif;
+        background: #361515;
+        background-image: url("/images/broken.jpg");
+        background-size: cover;
+      }
+
+      main {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        width: 100%;
+        backdrop-filter: blur(20px);
+      }
+
+      
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+        backdrop-filter: blur(10px);
+        border-radius: 5px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(10px);
+        border-radius: 5px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgba(255, 255, 255, 0.5);
+      }
+      
+
+      p {
+        color: rgba(255, 255, 255, 0.9);
+        line-height: 1.4;
+        margin-bottom: 1em;
+        font-weight: 100;
+        font-size: 1em;
+        letter-spacing: 0.5px;
+      }
+
+      p strong {
+        color: white;
+        font-weight: 700;
+      }
+
+      .text__glowing {
+        transition: text-shadow 0.3s ease;
+      }
+
+      .text__glowing:hover {
+        text-shadow:
+        1px 1px 20px #fff;
+      }
+
+     
+    </style>
+  </body>
+</html>

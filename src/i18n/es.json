@@ -4,9 +4,6 @@
   "SEO": {
 		"SERVICIO_TITLE": "Servicios de TSP-Negocios",
 		"SERVICIO_DESCRIPTION": "TSP Negocios es una empresa con muchos años de experiencia y casos de éxito, contamos con el equipo completo, necesario para desarrollar una página web que sirva para hacer negocios.",
-		"INFO_TITLE": "Información",
-		"INFO_DESCRIPTION_1": "Descubre todo lo que necesitas saber",
-		"INFO_DESCRIPTION_2": "y descarga el Kit de Prensa",
 		"LEGAL_NOTICE_TITLE": "Aviso legal",
 		"LEGAL_NOTICE_DESCRIPTION": "El aviso legal establece las disposiciones legales y las responsabilidades relacionadas con TSP Negocios, abordando aspectos como términos de uso, responsabilidades legales y acuerdos entre el usuario y la entidad responsable",
 		"PRIVACY_POLICY_TITLE": "Política de privacidad",
@@ -19,7 +16,7 @@
   "HEADER_1": "INFO",
   "HEADER_2": "ARCHIVO",
   "HEADER_BUTTON": "CONTÁCTENOS",
-  "INTRO_TITLE": "Sobre Nosotros",
+  "INTRO_TITLE": "Acerca de Nosotros",
   "INTRO_DESCRIPTION_1": "En TSP Negocios, transformamos ideas en oportunidades digitales.<strong> Con años de experiencia y numerosos casos de éxito</strong>, hemos trabajado junto a grandes empresas y emprendedores para potenciar su presencia en línea.",
   "INTRO_DESCRIPTION_2": "Contamos con un <strong>equipo altamente calificado</strong>, listo para diseñar y desarrollar páginas web estratégicas que impulsan el <strong>crecimiento de tu negocio</strong>. Nuestro enfoque combina tecnología, creatividad y funcionalidad para ofrecer soluciones a medida que <strong>generan resultados</strong>.",
   "NUMEROS_TITLE": "Cotiza tu Sitio Web con TSP Negocios",
@@ -46,6 +43,61 @@
   "CLIENTS_TITLE": "Nuestros Clientes",
   "CLIENTS_SUBTITLE": "Con nuestros diseños & soluciones ayudamos",
   "CLIENTS_SUBTITLE_AFTER_BR": "a empresas como:",
+
+  "INFO_TITLE": "Nuestros Servicios y Productos",
+  "INFO_SUBTITLE": "Aquí puedes encontrar información sobre nuestros servicios y cómo podemos ayudarte.",
+  "INFO_BUTTON_CONTACT": "Contacto",
+  "INFO_BUTTON_INFORMATION": "Mas Información",
+  "INFO_TITLE_1": "Facturación Electrónica",
+  "INFO_CONTENT_1_1": "Sistema de Facturación Electrónica y gestión empresarial. Control total, fácil y con reportes precisos.",
+  "INFO_CONTENT_1_2": "Con el sistema de facturación electrónica, podrás llevar un control total de tus ventas y compras, generando reportes precisos y en tiempo real.",
+  "INFO_TITLE_2": "Sistema Gastronómico (Chef)",
+  "INFO_CONTENT_2_1": "Aumenta la productividad y disminuye los tiempos de tareas garantizando la satisfacción de tus clientes.",
+  "INFO_CONTENT_2_2": "Podrás llevar un control de tus productos, menús, ventas y compras, generando reportes precisos y en tiempo real.",
+  "INFO_TITLE_3": "Sistema Parking",
+  "INFO_CONTENT_3_1": "Gestiona los tiempos y tarifas de los vehiculos alojados en tu aparcamiento.",
+  "INFO_CONTENT_3_2": "Además, podrás gestionar los pagos de tus clientes y llevar un control de los vehículos que ingresan y salen de tu aparcamiento.",
+  "INFO_TITLE_4": "Páginas Web",
+  "INFO_CONTENT_4_1": "Construimos tu página web mediante diseños creativos de alto impacto visual para atraer más clientes.",
+  "INFO_CONTENT_4_2": "Contamos con los mejores diseñadores y programadores para garantizar la calidad de tu página web.",
+  "INFO_TITLE_5": "Tienda Virtual",
+  "INFO_CONTENT_5_1": "Creamos tu tienda virtual y la dejamos lista para empezar a vender. Publica tus productos y empieza a recibir pedidos en tiempo real.",
+  "INFO_CONTENT_5_2": "Contamos con un equipo de expertos que te ayudarán a crear la tienda virtual perfecta para tu negocio.",
+  "INFO_TITLE_6": "Landing Page",
+  "INFO_CONTENT_6_1": "Diseñamos la página de aterrizaje para tu campaña digital, optimizada para lograr tus objetivos y ayudarte a ganar más clientes a un bajo costo.",
+  "INFO_CONTENT_6_2": "CContamos con un equipo de expertos en diseño de paginas para crear la landing page perfecta para tu negocio.",
+  "INFO_TITLE_7": "Hosting Dominio y Correo",
+  "INFO_CONTENT_7_1": "Los servicios de alojamiento web, permiten que su negocio, llegue fácilmente a millones de usuarios en su comunidad y el resto del mundo.",
+  "INFO_CONTENT_7_2": "Contamos con los mejores servidores y tecnología para garantizar la seguridad y velocidad de tu sitio web.",
+  "INFO_TITLE_8": "Equipos Informáticos",
+  "INFO_CONTENT_8_1": "Vendemos productos de última tecnología a los mejores precios y reparamos sus equipos como nuevos.",
+  "INFO_CONTENT_8_2": "Contamos con un equipo de expertos en tecnología que te ayudarán a elegir el mejor equipo para tu negocio.",
+  "INFO_TITLE_9": "Marketing Digital",
+  "INFO_CONTENT_9_1": "Posicinamos su negocio en los primeros buscadores de internet y hacemos campañas publicitarias para que su negocio siga creciendo.",
+  "INFO_CONTENT_9_2": "Contamos con un equipo de expertos en marketing digital que te ayudarán a crear la estrategia perfecta para tu negocio.",
+
+  "CONTACT_TITLE": "Contáctanos",
+  "CONTACT_SUBTITLE": "Utilizamos un enfoque ágil para probar suposiciones y conectar con las necesidades de su audiencia de forma temprana y frecuente.",
+  "CONTACT": {
+    "NAME": "Nombre",
+    "LASTNAME": "Apellidos",
+    "EMAIL": "Correo",
+    "PHONE_NUMBER": "Número de teléfono",
+    "MESSAGE": "Tu mensaje",
+    "TERMS_OF_USE_1": "Al enviar este formulario, usted acepta nuestros ",
+    "TERMS_OF_USE_2": "términos y condiciones",
+    "TERMS_OF_USE_3": " y nuestra ",
+    "TERMS_OF_USE_4": "política de privacidad",
+    "TERMS_OF_USE_5": ", que explica cómo podemos recopilar y usar su información personal.",
+    "BUTTON_SEND": "Enviar Mensaje"
+  },
+  "CONTACT_PLACEHOLDER": "Deja un comentario...",
+  "CONTACT_EMAIL_US": "Escribenos:",
+  "CONTACT_EMAIL_US_CONTENT": "Envíenos un correo electrónico para consultas generales, incluidas oportunidades de marketing y asociación.",
+  "CONTACT_CALL_US": "Llamanos:",
+  "CONTACT_CALL_US_CONTENT": "Llámenos para hablar con un miembro de nuestro equipo. Siempre estaremos encantados de ayudarle.",
+  "CONTACT_ADDRESS": "Dirección:",
+  "CONTACT_ADDRESS_CONTENT": "Úbica nuestra oficina en.",
 
   "FOOTER": {
     "REDES": "Encuentranos en:",
@@ -130,7 +182,7 @@
     },
     "UPDATES": {
       "TITLE": "Actualizaciones y cambios en la política de cookies",
-      "DESCRIPTION": "FAN CONTENT pueden modificar esta Política de Cookies en función de exigencias legislativas, reglamentarias, o con la finalidad de adaptar dicha política a las instrucciones dictadas por la Autoridad Nacional de Protección de Datos de Perú y por el Comité Europeo de Protección de Datos, por ello se aconseja a los Usuarios que la visiten periódicamente.",
+      "DESCRIPTION": "TSP Negocios pueden modificar esta Política de Cookies en función de exigencias legislativas, reglamentarias, o con la finalidad de adaptar dicha política a las instrucciones dictadas por la Autoridad Nacional de Protección de Datos de Perú y por el Comité Europeo de Protección de Datos, por ello se aconseja a los Usuarios que la visiten periódicamente.",
       "DATE": "Fecha de la última actualización: 12 del 12 de 2023."
     },
     "SITE_COOKIES": {
@@ -347,5 +399,9 @@
 			"DESCRIPTION": "TSP Negocios se reserva el derecho a modificar esta Política de privacidad en función de exigencias legislativas, reglamentarias o con la finalidad de adaptar dicha política a las instrucciones dictadas por la Autoridad Nacional de Protección de Datos Personales (ANPD, Perú) y/o por el Comité Europeo de Protección de Datos, por ello se aconseja a los Usuarios que la visiten periódicamente. Cuando se produzcan cambios significativos en esta Política, éstos se publicarán en el Sitio Web.",
 			"LAST_UPDATE": "Fecha de la última actualización: 12 del 12 de 2023."
 		}
+	},
+	"ERROR_404": {
+		"TITLE": "Página no encontrada",
+		"BACK_HOMEPAGE_BTN": "Volver a la página de inicio"
 	}
 }

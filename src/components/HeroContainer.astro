@@ -1,6 +1,4 @@
 ---
-import Button from '@/components/Button';
-
 interface Props {
     img?: string;
 }
@@ -10,7 +8,7 @@ const { img } = Astro.props
 
 
 <div  
-    style={`clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 50% 100%, 0 85%); background-color: #BF1F17;`} 
+    style={`clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 50% 100%, 0 85%); background-color: #ff0d00;`} 
     class="bg-no-repeat bg-cover relative h-[100vh] w-full max-w-[100vw]">
     <section class={`
         flex flex-col lg:flex-row gap-4
@@ -20,19 +18,12 @@ const { img } = Astro.props
         animate-fade-up
       `}>
         <div class="col-span-2 md:col-span-2 flex flex-col justify-center items-center">
-            <h2 class="text-4xl font-semibold text-balance mb-4 text-center text-white">Nuestros Servicios y Productos</h2>
-            <p class="text-white text-base md:text-lg max-w-xl text-center">
-                Aquí puedes encontrar información sobre nuestros servicios y cómo podemos ayudarte.
-            </p>
-            <Button className="animate-fade-up lg:text-2xl md:px-5 md:text-xl text-xs w-fit font-medium no-underline px-3 py-3 border border-solid border-white rounded-full uppercase _button_10p5w_1 md:py-2 md:text-base lg:text-base text-white" url="https://wa.me/+51908915072">Contacto
-            </Button>
+            <slot />
         </div>
         <div class="col-span-2 md:col-span-2 flex flex-col justify-center items-center">
             <img src="/images/PortadaDerecha.png" alt="Imagen de servicio" class="
                 w-200 h-auto object-cover
-                animate-fade-up
-
-            "/>
+                animate-fade-up"/>
         </div>
       </section>
 </div>

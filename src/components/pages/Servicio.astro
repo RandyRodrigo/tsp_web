@@ -2,6 +2,7 @@
 import Layout from '@/layouts/Layout.astro';
 import HeroContainer from '@/components/HeroContainer.astro';
 import { getI18N } from '@/i18n/index';
+import Button from '../Button';
 
 const { currentLocale } = Astro;
 const i18n = getI18N({currentLocale});
@@ -9,16 +10,23 @@ const i18n = getI18N({currentLocale});
 
 <Layout
   title=`${i18n.SEO.SERVICIO_TITLE}&nbsp;${new Date().getFullYear()}` description={i18n.SEO.SERVICIO_DESCRIPTION}>
-  <HeroContainer />
+  <HeroContainer>
+    <h2 class="text-4xl font-semibold text-balance mb-4 text-center text-white">{i18n.INFO_TITLE}</h2>
+            <p class="text-white text-base md:text-lg max-w-xl text-center">
+                {i18n.INFO_SUBTITLE}
+            </p>
+            <Button className="animate-fade-up lg:text-2xl md:px-5 md:text-xl text-xs w-fit font-medium no-underline px-3 py-3 border border-solid border-white rounded-full uppercase _button_10p5w_1 md:py-2 md:text-base lg:text-base text-white" url="https://wa.me/+51908915072">{i18n.INFO_BUTTON_CONTACT}
+            </Button>
+  </HeroContainer>
   <main class="pb-24">
     <section class="w-full max-w-[1400px] mx-auto my-24 gap-10 text-pretty px-6 text-left text-xl sm:px-20 flex flex-col md:flex-row items-center justify-between p-6 md:p-8">
       <div id="theater-text" class="md:w-1/2 space-y-4">
         <h1 class="mx-auto mb-10 text-balance text-left text-3xl lg:text-5xl font-semibold tracking-wide">
-          Facturación Electrónica
+          {i18n.INFO_TITLE_1}
         </h1> 
-        <p>Sistema de Facturación Electrónica y gestión empresarial. Control total, fácil y con reportes precisos.</p>
-        <p>Con el sistema de facturación electrónica, podrás llevar un control total de tus ventas y compras, generando reportes precisos y en tiempo real.</p>
-        <button id="theater" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">Mas Información</button>
+        <p>{i18n.INFO_CONTENT_1_1}</p>
+        <p>{i18n.INFO_CONTENT_1_2}</p>
+        <button id="theater" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">{i18n.INFO_BUTTON_INFORMATION}</button>
       </div>
       <div id="theater" class="mt-6 md:mt-0 md:w-1/2 flex justify-center items-center">
         <img 
@@ -48,22 +56,22 @@ const i18n = getI18N({currentLocale});
       </div>
       <div id="trophies-text" class="md:w-1/2 space-y-4">
         <h1 class="mx-auto mb-10 text-balance text-left text-3xl lg:text-5xl font-semibold tracking-wide">
-          Sistema Gastronómico (Chef)
+          {i18n.INFO_TITLE_2}
         </h1>
-        <p>Aumenta la productividad y disminuye los tiempos de tareas garantizando la satisfacción de tus clientes.</p>
-        <p>Podrás llevar un control de tus productos, menús, ventas y compras, generando reportes precisos y en tiempo real.</p>
-        <button id="trophies" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">Mas Información</button>
+        <p>{i18n.INFO_CONTENT_2_1}</p>
+        <p>{i18n.INFO_CONTENT_2_2}</p>
+        <button id="trophies" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">{i18n.INFO_BUTTON_INFORMATION}</button>
       </div>
     </section>
 
     <section class="w-full max-w-[1400px] mx-auto my-24 gap-10 text-pretty px-6 text-left text-xl sm:px-20 flex flex-col md:flex-row items-center justify-between p-6 md:p-8">
       <div id="theater-text" class="md:w-1/2 space-y-4">
         <h1 class="mx-auto mb-10 text-balance text-left text-3xl lg:text-5xl font-semibold tracking-wide">
-          Sistema Parking
+          {i18n.INFO_TITLE_3}
         </h1>
-        <p>Gestiona los tiempos y tarifas de los vehiculos alojados en tu aparcamiento.</p>
-        <p>Además, podrás gestionar los pagos de tus clientes y llevar un control de los vehículos que ingresan y salen de tu aparcamiento.</p>
-        <button id="theater" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">Mas Información</button>
+        <p>{i18n.INFO_CONTENT_3_1}</p>
+        <p>{i18n.INFO_CONTENT_3_2}</p>
+        <button id="theater" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">{i18n.INFO_BUTTON_INFORMATION}</button>
       </div>
       <div id="theater" class="mt-6 md:mt-0 md:w-1/2 flex justify-center items-center">
         <img 
@@ -93,22 +101,22 @@ const i18n = getI18N({currentLocale});
       </div>
       <div id="trophies-text" class="md:w-1/2 space-y-4">
         <h1 class="mx-auto mb-10 text-balance text-left text-3xl lg:text-5xl font-semibold tracking-wide">
-          Páginas Web
+          {i18n.INFO_TITLE_4}
         </h1>
-        <p>Construimos tu página web mediante diseños creativos de alto impacto visual para atraer más clientes.</p>
-        <p>Contamos con los mejores diseñadores y programadores para garantizar la calidad de tu página web.</p>
-        <button id="trophies" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">Mas Información</button>
+        <p>{i18n.INFO_CONTENT_4_1}</p>
+        <p>{i18n.INFO_CONTENT_4_2}</p>
+        <button id="trophies" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">{i18n.INFO_BUTTON_INFORMATION}</button>
       </div>
     </section>
 
     <section class="w-full max-w-[1400px] mx-auto my-24 gap-10 text-pretty px-6 text-left text-xl sm:px-20 flex flex-col md:flex-row items-center justify-between p-6 md:p-8">
       <div id="theater-text" class="md:w-1/2 space-y-4">
         <h1 class="mx-auto mb-10 text-balance text-left text-3xl lg:text-5xl font-semibold tracking-wide">
-          Tienda Virtual
+          {i18n.INFO_TITLE_5}
         </h1>
-        <p>Creamos tu tienda virtual y la dejamos lista para empezar a vender. Publica tus productos y empieza a recibir pedidos en tiempo real.</p>
-        <p>Contamos con un equipo de expertos que te ayudarán a crear la tienda virtual perfecta para tu negocio.</p>
-        <button id="theater" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">Mas Información</button>
+        <p>{i18n.INFO_CONTENT_5_1}</p>
+        <p>{i18n.INFO_CONTENT_5_2}</p>
+        <button id="theater" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">{i18n.INFO_BUTTON_INFORMATION}</button>
       </div>
       <div id="theater" class="mt-6 md:mt-0 md:w-1/2 flex justify-center items-center">
         <img 
@@ -138,22 +146,22 @@ const i18n = getI18N({currentLocale});
       </div>
       <div id="trophies-text" class="md:w-1/2 space-y-4">
         <h1 class="mx-auto mb-10 text-balance text-left text-3xl lg:text-5xl font-semibold tracking-wide">
-          Landing Page
+          {i18n.INFO_TITLE_6}
         </h1>
-        <p>Diseñamos la página de aterrizaje para tu campaña digital, optimizada para lograr tus objetivos y ayudarte a ganar más clientes a un bajo costo.</p>
-        <p>Contamos con un equipo de expertos en diseño de paginas para crear la landing page perfecta para tu negocio.</p>
-        <button id="trophies" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">Mas Información</button>
+        <p>{i18n.INFO_CONTENT_6_1}</p>
+        <p>{i18n.INFO_CONTENT_6_2}</p>
+        <button id="trophies" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">{i18n.INFO_BUTTON_INFORMATION}</button>
       </div>
     </section>
 
     <section class="w-full max-w-[1400px] mx-auto my-24 gap-10 text-pretty px-6 text-left text-xl sm:px-20 flex flex-col md:flex-row items-center justify-between p-6 md:p-8">
       <div id="theater-text" class="md:w-1/2 space-y-4">
         <h1 class="mx-auto mb-10 text-balance text-left text-3xl lg:text-5xl font-semibold tracking-wide">
-          Hosting Dominio y Correo
+          {i18n.INFO_TITLE_7}
         </h1>
-        <p>Los servicios de alojamiento web, permiten que su negocio, llegue fácilmente a millones de usuarios en su comunidad y el resto del mundo.</p>
-        <p>Contamos con los mejores servidores y tecnología para garantizar la seguridad y velocidad de tu sitio web.</p>
-        <button id="theater" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">Mas Información</button>
+        <p>{i18n.INFO_CONTENT_7_1}</p>
+        <p>{i18n.INFO_CONTENT_7_2}</p>
+        <button id="theater" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">{i18n.INFO_BUTTON_INFORMATION}</button>
       </div>
       <div id="theater" class="mt-6 md:mt-0 md:w-1/2 flex justify-center items-center">
         <img 
@@ -183,22 +191,22 @@ const i18n = getI18N({currentLocale});
       </div>
       <div id="trophies-text" class="md:w-1/2 space-y-4">
         <h1 class="mx-auto mb-10 text-balance text-left text-3xl lg:text-5xl font-semibold tracking-wide">
-          Equipos Informáticos
+          {i18n.INFO_TITLE_8}
         </h1>
-        <p>Vendemos productos de última tecnología a los mejores precios y reparamos sus equipos como nuevos.</p>
-        <p>Contamos con un equipo de expertos en tecnología que te ayudarán a elegir el mejor equipo para tu negocio.</p>
-        <button id="trophies" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">Mas Información</button>
+        <p>{i18n.INFO_CONTENT_8_1}</p>
+        <p>{i18n.INFO_CONTENT_8_2}</p>
+        <button id="trophies" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">{i18n.INFO_BUTTON_INFORMATION}</button>
       </div>
     </section>
 
     <section class="w-full max-w-[1400px] mx-auto my-24 gap-10 text-pretty px-6 text-left text-xl sm:px-20 flex flex-col md:flex-row items-center justify-between p-6 md:p-8">
       <div id="theater-text" class="md:w-1/2 space-y-4">
         <h1 class="mx-auto mb-10 text-balance text-left text-3xl lg:text-5xl font-semibold tracking-wide">
-          Marketing Digital
+          {i18n.INFO_TITLE_9}
         </h1>
-        <p>Posicinamos su negocio en los primeros buscadores de internet y hacemos campañas publicitarias para que su negocio siga creciendo.</p>
-        <p>Contamos con un equipo de expertos en marketing digital que te ayudarán a crear la estrategia perfecta para tu negocio.</p>
-        <button id="theater" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">Mas Información</button>
+        <p>{i18n.INFO_CONTENT_9_1}</p>
+        <p>{i18n.INFO_CONTENT_9_2}</p>
+        <button id="theater" type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">{i18n.INFO_BUTTON_INFORMATION}</button>
       </div>
       <div id="theater" class="mt-6 md:mt-0 md:w-1/2 flex justify-center items-center">
         <img 

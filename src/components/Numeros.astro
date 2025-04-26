@@ -6,34 +6,30 @@ const { currentLocale } = Astro;
 const i18n = getI18N({currentLocale});
 ---
 
-<section class="max-w-6xl mx-auto py-20 px-20">
-    <h2 class="text-4xl lg:text-4xl font-semibold text-center text-balance mb-10 lg:mb-20 text-rojo">
-        {i18n.NUMEROS_TITLE}
-    </h2>
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-y-10 divide-x-4 divide-red-500">
-        <div class="flex flex-col justify-center items-center">
-            <span
-                class="number text-6xl font-bold text-balance tabular-nums tracking-tighter"
-            >
-                +<CountUp client:visible initial={0} final={1500} />
-            </span>
-            <span class="uppercase opacity-70 text-center">{i18n.NUMEROS_COUNTUP_1}</span>
-        </div>
-        <div class="flex flex-col items-center justify-center">
-            <span
-                class="number text-6xl font-bold text-balance tabular-nums tracking-tighter"
-            >
-                +<CountUp client:visible initial={0} final={1500} />
-            </span>
-            <span class="uppercase opacity-70 text-center">{i18n.NUMEROS_COUNTUP_2}</span>
-        </div>
-        <div class="flex flex-col items-center justify-center">
-            <span
-                class="number text-6xl font-bold text-balance tabular-nums tracking-tighter"
-            >
-                +<CountUp client:visible initial={0} final={1000} />
-            </span>
-            <span class="uppercase opacity-70 text-center">{i18n.NUMEROS_COUNTUP_3}</span>
+<section class="w-full bg-gray-100 py-20 px-20">
+    <div class="max-w-6xl mx-auto">
+        <h2 class="text-4xl lg:text-5xl font-bold text-center text-balance mb-10 lg:mb-20 text-rojo">
+            {i18n.NUMEROS_TITLE}
+        </h2>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-y-10 divide-x-4 divide-red-500">
+            <div class="flex flex-col justify-center items-center">
+                <span class="number text-6xl font-bold text-balance tabular-nums tracking-tighter">
+                    +<CountUp client:visible initial={0} final={1500} />
+                </span>
+                <span class="uppercase opacity-70 text-center">{i18n.NUMEROS_COUNTUP_1}</span>
+            </div>
+            <div class="flex flex-col items-center justify-center">
+                <span class="number text-6xl font-bold text-balance tabular-nums tracking-tighter">
+                    +<CountUp client:visible initial={0} final={1500} />
+                </span>
+                <span class="uppercase opacity-70 text-center">{i18n.NUMEROS_COUNTUP_2}</span>
+            </div>
+            <div class="flex flex-col items-center justify-center">
+                <span class="number text-6xl font-bold text-balance tabular-nums tracking-tighter">
+                    +<CountUp client:visible initial={0} final={1000} />
+                </span>
+                <span class="uppercase opacity-70 text-center">{i18n.NUMEROS_COUNTUP_3}</span>
+            </div>
         </div>
     </div>
 </section>
@@ -41,6 +37,6 @@ const i18n = getI18N({currentLocale});
 <style>
     .number {
         color: #ff0d00;
-        text-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+        text-shadow: 0 0 10px rgb(255, 255, 255);
     }
 </style>

@@ -39,13 +39,40 @@ import "photoswipe/style.css";
     </section>
 </div>
 
-<script>
-    import PhotoSwipeLightBox from "photoswipe/lightbox";
+<script >
+// Extender la interfaz Window para incluir la propiedad lightbox
+declare global {
+    interface Window {
+        lightbox?: any;
+    }
+}
+// Función que inicializa PhotoSwipe
+function initPhotoSwipe() {
+        import("photoswipe/lightbox").then((module) => {
+            const PhotoSwipeLightBox = module.default;
+            
+            // Destroy previous instance if exists
+            if (window.lightbox) {
+                window.lightbox.destroy();
+                window.lightbox = null;
+            }
+            
+            // Initialize new instance
+            const lightbox = new PhotoSwipeLightBox({
+                gallery: "#gallery",
+                children: "a",
+                pswpModule: () => import("photoswipe"),
+            });
+            
+            lightbox.init();
+            window.lightbox = lightbox; // Store reference for cleanup
+        });
+    }
 
-    const lightbox = new PhotoSwipeLightBox({
-        gallery: "#gallery",
-        children: "a",
-        pswpModule: () => import("photoswipe"),
-    });
-    lightbox.init();
+    // Initialize on page load
+    initPhotoSwipe();
+    
+    // Re-initialize when navigating with Astro's view transitions
+    document.addEventListener('astro:page-load', initPhotoSwipe);
+    document.addEventListener('astro:after-swap', initPhotoSwipe);
 </script>

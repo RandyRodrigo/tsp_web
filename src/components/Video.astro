@@ -1,15 +1,34 @@
+---
+import { getI18N } from "@/i18n";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({currentLocale});
+---
+
 <div class="relative w-auto max-w-[100vw] xl:h-full">
     <div class="inset-0 h-full z-10 m-auto flex flex-col items-center w-full">
-        <img class="animated animatedFadeInUp fadeInUp absolute top-40 z-10 w-[700px] left-0 right-0 m-auto flex" alt="TspNegocios" src="/images/logoTSP.png"/>
-        <video id="main-video" preload="metadata" playsinline class="video h-[75vh] w-full object-cover object-top animate-duration-[2s] animate-ease-in-out " src="/tsp.mp4" autoplay loop muted style="clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 50% 100%, 0 85%);"></video>
+      <div class="absolute w-full flex flex-col items-center">
+        <img 
+          class="animated animatedFadeInUp fadeInUp absolute top-30 z-10 w-[500px] left-0 right-0 m-auto flex" 
+          alt="TspNegocios" 
+          src="/images/logoTSP.png"
+        />
+      
+        <div class="animated fadeInUp mt-[400px] sm:mt-[450px] lg:mt-[500px] text-center z-20 font-mono">
+          <h2 class="text-white text-xl sm:text-5xl font-semibold ">
+            {i18n.VIDEO_SUBTITLE}
+          </h2>
+        </div>
+      </div>
+        <video id="main-video" preload="metadata" playsinline class="video h-[85vh] w-full object-cover object-top animate-duration-[2s] animate-ease-in-out " src="/2.webm" autoplay loop muted style="clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 50% 100%, 0 85%);"></video>
     </div>
     <video
-    class="video absolute -bottom-18 -z-40 blur-3xl w-screen h-[60vh] object-cover object-top animate-duration-[2s] animate-ease-in-out"
+    class="video absolute -bottom-20 -z-40 blur-3xl w-screen h-[40vh] object-cover object-top animate-duration-[2s] animate-ease-in-out"
     autoplay
     loop
     muted
     preload="metadata"
-    src="/tsp.mp4"
+    src=""
   >
   </video>
 </div>

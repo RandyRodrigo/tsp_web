@@ -2,14 +2,17 @@
 import Layout from "@/layouts/Layout.astro";
 import HeroContainer from "../HeroContainer.astro";
 import Galeria from "../Galeria.astro";
+import { getI18N } from "@/i18n";
 
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
 ---
 
-<Layout title="Portafolio" description="Aqui encontraras nuestros proyectos desarrollados y en funcionamiento constante.">
+<Layout title=`${i18n.SEO.ARCHIVO_TITLE}&nbsp;${new Date().getFullYear()}` description={i18n.SEO.ARCHIVO_DESCRIPTION}>
     <HeroContainer>
-        <h2 class="text-4xl font-semibold text-balance mb-4 text-center text-white">Portafolio</h2>
+        <h2 class="text-4xl font-semibold text-balance mb-4 text-center text-white">{i18n.ARCHIVO_INFO_TITLE}</h2>
             <p class="text-white text-base md:text-lg max-w-xl text-center">
-                Aqui encontraras nuestros proyectos desarrollados y en funcionamiento constante.
+                {i18n.ARCHIVO_INFO_SUBTITLE}
             </p>
     </HeroContainer>
     <Galeria />

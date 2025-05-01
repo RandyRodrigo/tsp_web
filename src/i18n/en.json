@@ -4,6 +4,8 @@
   "SEO": {
 		"SERVICIO_TITLE": "Archive of Previous Editions",
 		"SERVICIO_DESCRIPTION": "Relive the best moments from past editions.",
+    "ARCHIVO_TITLE": "Briefcase",
+    "ARCHIVO_DESCRIPTION": "Here you will find our developed projects that are constantly operational.",
 		"LEGAL_NOTICE_TITLE": "Legal Notice",
 		"LEGAL_NOTICE_DESCRIPTION": "The legal notice establishes the legal provisions and responsibilities related to the ESLAND Awards, addressing aspects such as terms of use, legal responsibilities, and agreements between the user and the responsible entity.",
 		"PRIVACY_POLICY_TITLE": "Privacy Policy",
@@ -16,6 +18,7 @@
   "HEADER_1": "INFO",
   "HEADER_2": "FILE",
   "HEADER_BUTTON": "CONTACT US",
+  "VIDEO_SUBTITLE": "Transparent. Flexible. Reliable. Software Development Company.",
   "INTRO_TITLE": "About Us",
   "INTRO_DESCRIPTION_1": "At TSP-Negocios, we transform ideas into digital opportunities. <strong>With years of experience and numerous success stories</strong>, we have worked alongside large companies and entrepreneurs to enhance their online presence.",
   "INTRO_DESCRIPTION_2": "We have a <strong>highly qualified team</strong>, ready to design and develop strategic websites that drive <strong>your business growth</strong>. Our approach combines technology, creativity, and functionality to deliver tailored solutions that <strong>generate results</strong>.",
@@ -43,7 +46,10 @@
   "CLIENTS_TITLE": "Our Clients",
   "CLIENTS_SUBTITLE": "With our designs & solutions, we help",
   "CLIENTS_SUBTITLE_AFTER_BR": "companies like:",
-
+  "GALLERY_TITLE": "Projects",
+  "GALLERY_SUBTITLE": "Join our family by obtaining the best quality and content for your business",
+  "ARCHIVO_INFO_TITLE": "Briefcase",
+  "ARCHIVO_INFO_SUBTITLE": "Here you will find our developed projects that are constantly operational.",
   "INFO_TITLE": "Our Services and Products",
   "INFO_SUBTITLE": "Here you can find information about our services and how we can help you.",
   "INFO_BUTTON_CONTACT": "Contact",

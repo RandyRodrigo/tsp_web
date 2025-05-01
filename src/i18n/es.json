@@ -4,6 +4,8 @@
   "SEO": {
 		"SERVICIO_TITLE": "Servicios de TSP-Negocios",
 		"SERVICIO_DESCRIPTION": "TSP Negocios es una empresa con muchos años de experiencia y casos de éxito, contamos con el equipo completo, necesario para desarrollar una página web que sirva para hacer negocios.",
+    "ARCHIVO_TITLE": "Portafolio",
+    "ARCHIVO_DESCRIPTION": "Aqui encontraras nuestros proyectos desarrollados y en funcionamiento constante.",
 		"LEGAL_NOTICE_TITLE": "Aviso legal",
 		"LEGAL_NOTICE_DESCRIPTION": "El aviso legal establece las disposiciones legales y las responsabilidades relacionadas con TSP Negocios, abordando aspectos como términos de uso, responsabilidades legales y acuerdos entre el usuario y la entidad responsable",
 		"PRIVACY_POLICY_TITLE": "Política de privacidad",
@@ -16,6 +18,7 @@
   "HEADER_1": "INFO",
   "HEADER_2": "ARCHIVO",
   "HEADER_BUTTON": "CONTÁCTENOS",
+  "VIDEO_SUBTITLE": "Diseñamos tu Página Web. Transparente. Flexible. Confiable.",
   "INTRO_TITLE": "Acerca de Nosotros",
   "INTRO_DESCRIPTION_1": "En TSP Negocios, transformamos ideas en oportunidades digitales.<strong> Con años de experiencia y numerosos casos de éxito</strong>, hemos trabajado junto a grandes empresas y emprendedores para potenciar su presencia en línea.",
   "INTRO_DESCRIPTION_2": "Contamos con un <strong>equipo altamente calificado</strong>, listo para diseñar y desarrollar páginas web estratégicas que impulsan el <strong>crecimiento de tu negocio</strong>. Nuestro enfoque combina tecnología, creatividad y funcionalidad para ofrecer soluciones a medida que <strong>generan resultados</strong>.",
@@ -43,7 +46,10 @@
   "CLIENTS_TITLE": "Nuestros Clientes",
   "CLIENTS_SUBTITLE": "Con nuestros diseños & soluciones ayudamos",
   "CLIENTS_SUBTITLE_AFTER_BR": "a empresas como:",
-
+  "GALLERY_TITLE": "Proyectos",
+  "GALLERY_SUBTITLE": "Únete a nuestra familia obteniendo la mejor calidad y contenido para tu negocio",
+  "ARCHIVO_INFO_TITLE": "Portafolio",
+  "ARCHIVO_INFO_SUBTITLE": "Aquí encontraras nuestros proyectos desarrollados y en funcionamiento constante.",
   "INFO_TITLE": "Nuestros Servicios y Productos",
   "INFO_SUBTITLE": "Aquí puedes encontrar información sobre nuestros servicios y cómo podemos ayudarte.",
   "INFO_BUTTON_CONTACT": "Contacto",

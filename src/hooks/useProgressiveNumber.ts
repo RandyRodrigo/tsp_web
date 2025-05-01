@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from 'preact/hooks'
 
 export const useProgressiveNumber = (
 	initialValue: number | (() => number),
-	duration = 2000,
+	duration = 1000,
 	delay = 50
 ): [number, (value: number | ((prevTarget: number) => number)) => void] => {
 	const [target, setTarget] = useState(initialValue)

@@ -1,13 +1,16 @@
 ---
 import "photoswipe/style.css";
+import { getI18N } from '@/i18n';
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
 ---
-<div class="w-full bg-gray-100">
+<div class="">
     <section class="relative z-10 mx-auto max-w-[100ch] text-pretty px-6 text-center text-xl sm:px-20 pt-20">
         <h1 class="mx-auto mb-10 text-wrap text-center text-5xl font-bold tracking-wide">
-            Proyectos
+            {i18n.GALLERY_TITLE}
         </h1>
         <h2>
-            Únete a nuestra familia obteniendo la mejor calidad y contenido para tu negocio
+            {i18n.GALLERY_SUBTITLE}
         </h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl gap-6 mx-auto py-20" id="gallery">
             {

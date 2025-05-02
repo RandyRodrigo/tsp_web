@@ -3,6 +3,7 @@ import "photoswipe/style.css";
 import { getI18N } from '@/i18n';
 const { currentLocale } = Astro;
 const i18n = getI18N({ currentLocale });
+import "@/components/styles/Galeria.css"
 ---
 <div class="">
     <section class="relative z-10 mx-auto max-w-[100ch] text-pretty px-6 text-center text-xl sm:px-20 pt-20">
@@ -16,25 +17,27 @@ const i18n = getI18N({ currentLocale });
             {
                 Array.from({ length: 8 }).map((_, i) => (
                 <a
-                class="group rounded-xl hover:scale-105 hover:contrast-[110%] transition-all relative"
+                class="group rounded-xl transition-all relative"
                 href={`/archivo-gallery/portfolio-${i + 1}.jpg`}
                 target="_blank"
                 data-pswp-width="585"
                 data-pswp-height="400"
                 data-cropped="true"
                 >
-                    <img
-                    class="blur-md opacity-0 group-hover:opacity-100 absolute inset-0 transition-all contrast-150 -z-10 object-cover w-full h-full"
-                    loading="lazy"
-                    src={`/archivo-gallery/portfolio-${i + 1}.jpg`}
-                    alt=""
-                    />  
-                    <img
-                    class="rounded-xl object-cover w-full h-auto"
-                    loading="lazy"
-                    src={`/archivo-gallery/portfolio-${i + 1}.jpg`}
-                    alt=""
-                    />
+                    <div class="hover:scale-105 hover:contrast-[110%] transition-transform">
+                        <img
+                        class="blur-md opacity-0 group-hover:opacity-100 absolute inset-0 transition-all contrast-150 -z-10 object-cover w-full h-full"
+                        loading="lazy"
+                        src={`/archivo-gallery/portfolio-${i + 1}.jpg`}
+                        alt=""
+                        />  
+                        <img
+                        class="rounded-xl object-cover w-full h-auto"
+                        loading="lazy"
+                        src={`/archivo-gallery/portfolio-${i + 1}.jpg`}
+                        alt=""
+                        />
+                    </div>
                 </a>
                 ))
             }

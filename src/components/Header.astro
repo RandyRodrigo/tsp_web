@@ -28,7 +28,7 @@ const translatePath = useTranslatedPath(lang);
       <img
         class="w-25 m-auto hover:opacity-100 opacity-90 transition-opacity duration-300 block flex justify-center"
         src="/images/logoTSP.svg"
-        alt="TSP-Negocios"
+        alt="TSP"
       />
     </HeaderLink>
     <nav
@@ -40,6 +40,9 @@ const translatePath = useTranslatedPath(lang);
       </HeaderLink>
       <HeaderLink class="text__glowing" href={translatePath("/archivo/")}>
         {t("nav.archivo")}
+      </HeaderLink>
+      <HeaderLink class="text__glowing" href={translatePath("/documentacion/index.html")}>
+        {t("nav.documentacion")}
       </HeaderLink>
       <LanguageSelector />
       <Button

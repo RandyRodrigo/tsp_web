@@ -1,5 +1,5 @@
 {
-  "SEO_TITLE": "TSP Negocios",
+  "SEO_TITLE": "TSP",
   "SEO_DESCRIPTION": "A company with many years of experience and success stories, we have the complete team necessary to develop a website that serves to do business.",
   "SEO": {
 		"SERVICIO_TITLE": "Archive of Previous Editions",
@@ -10,7 +10,7 @@
 		"LEGAL_NOTICE_DESCRIPTION": "The legal notice establishes the legal provisions and responsibilities related to the ESLAND Awards, addressing aspects such as terms of use, legal responsibilities, and agreements between the user and the responsible entity.",
 		"PRIVACY_POLICY_TITLE": "Privacy Policy",
 		"PRIVACY_POLICY_DESCRIPTION": "The Privacy Policy of the ESLAND Awards describes how personal data of users is collected, used, protected, and shared.",
-		"COOKIES_TITLE":"Cookie Policy - TSP Negocios",
+		"COOKIES_TITLE":"Cookie Policy - TSP",
 		"COOKIES_DESCRIPTION":"The Cookie Policy of the ESLAND Awards informs about the use of cookies and similar technologies on the website.",
 		"ERROR_404_TITLE": "404 Page not found",
 		"ERROR_404_DESCRIPTION": "Page not found (Error 404). Check the URL or explore our sections. Need help? Contact us."
@@ -20,12 +20,14 @@
   "HEADER_BUTTON": "CONTACT US",
   "VIDEO_SUBTITLE": "Transparent. Flexible. Reliable. Software Development Company.",
   "INTRO_TITLE": "About Us",
-  "INTRO_DESCRIPTION_1": "At TSP-Negocios, we transform ideas into digital opportunities. <strong>With years of experience and numerous success stories</strong>, we have worked alongside large companies and entrepreneurs to enhance their online presence.",
+  "INTRO_DESCRIPTION_1": "At TSP, we transform ideas into digital opportunities. <strong>With years of experience and numerous success stories</strong>, we have worked alongside large companies and entrepreneurs to enhance their online presence.",
   "INTRO_DESCRIPTION_2": "We have a <strong>highly qualified team</strong>, ready to design and develop strategic websites that drive <strong>your business growth</strong>. Our approach combines technology, creativity, and functionality to deliver tailored solutions that <strong>generate results</strong>.",
-  "NUMEROS_TITLE": "Quote Your Website with TSP Negocios",
+  "NUMEROS_TITLE": "Quote Your Website with TSP",
   "NUMEROS_COUNTUP_1": "Projects Delivered",
   "NUMEROS_COUNTUP_2": "Satisfied Clients",
   "NUMEROS_COUNTUP_3": "Recommendations",
+  "NUMEROS_BUTTON_1": "Start now",
+  "NUMEROS_BUTTON_2": "Learn more",
   "BENTO_TITLE": "Our Benefits",
   "BENTO_TITLE_1": "LEADERS",
   "BENTO_CONTENT_1": "Leaders in web design and online store development.",
@@ -107,7 +109,7 @@
   
   "FOOTER": {
     "REDES": "Find us:",
-    "DISCLAIMER": "Developed by TSP Negocios - All Rights Reserved.",
+    "DISCLAIMER": "Developed by TSP - All Rights Reserved RUC: 20614027283 - GRUPO TSP.",
     "LEGAL": {
       "TITLE": "Legal",
       "NOTICE": "Legal Notice",
@@ -128,7 +130,7 @@
   "COOKIES": {
     "POLICIES": {
       "TITLE": "Cookie Policy",
-      "DESCRIPTION_1": "This Cookie Policy is an integral part of the Legal Notice and Privacy Policy of the website www.tspnegocios.com (hereinafter referred to as 'the Website'), which is owned by TSP Negocios. (hereinafter referred to as 'TSP Negocios') with its registered office at avenue Carlos Alberto Izaguirre Nro. 216 Independencia Lima. TSP Negocios is responsible for the cookies and the processing of personal data obtained through both its own and third-party cookies used on this Website.",
+      "DESCRIPTION_1": "This Cookie Policy is an integral part of the Legal Notice and Privacy Policy of the website www.grupotsp.pe (hereinafter referred to as 'the Website'), which is owned by TSP. (hereinafter referred to as 'TSP') with its registered office at avenue Carlos Alberto Izaguirre Nro. 216 Independencia Lima. TSP is responsible for the cookies and the processing of personal data obtained through both its own and third-party cookies used on this Website.",
       "DESCRIPTION_2": "The Website uses third-party analytical cookies, specifically Google Analytics, to analyze user activity and compile statistics for the purpose of improving the Website.",
       "DESCRIPTION_3": "You can accept all cookies, reject them, or configure your preferences in the cookie settings panel. At any time, you can revoke your consent or change your cookie preferences by accessing the settings panel again. Additionally, you can prevent the download of cookies or delete those that have been installed by adjusting the settings in your browser, thus preventing the storage of cookies on your device. It is very important that you read and understand this cookie policy.",
       "DESCRIPTION_4": "We inform you of the possibility that rejecting or disabling cookies may affect or limit your browsing experience or the services provided on this Website."
@@ -188,7 +190,7 @@
     },
     "UPDATES": {
       "TITLE": "Updates and Changes to the Cookie Policy",
-      "DESCRIPTION": "TSP Negocios may modify this Cookie Policy based on legislative or regulatory requirements, or to adapt this policy to the instructions issued by the National Authority for Data Protection of Peru and the European Data Protection Board. Therefore, Users are advised to visit it periodically.",
+      "DESCRIPTION": "TSP may modify this Cookie Policy based on legislative or regulatory requirements, or to adapt this policy to the instructions issued by the National Authority for Data Protection of Peru and the European Data Protection Board. Therefore, Users are advised to visit it periodically.",
       "DATE": "Last update date: December 12, 2023."
     },
     "SITE_COOKIES": {
@@ -245,39 +247,39 @@
     "TITLE": "Legal Notice",
     "ACCESS_AND_USE": {
       "TITLE": "Conditions of Access and Use",
-      "DESCRIPTION_1": "Access, navigation, and use of the website www.tspnegocios.com imply the express and unreserved acceptance of all the terms of the conditions of use included in this Legal Notice. Compliance is required for anyone who accesses, navigates, or uses the Website. If the User does not agree with all or part of the conditions of use as stated, they must refrain from accessing, navigating, or using the Website."
+      "DESCRIPTION_1": "Access, navigation, and use of the website www.grupotsp.pe imply the express and unreserved acceptance of all the terms of the conditions of use included in this Legal Notice. Compliance is required for anyone who accesses, navigates, or uses the Website. If the User does not agree with all or part of the conditions of use as stated, they must refrain from accessing, navigating, or using the Website."
     },
     "OWNERSHIP_AND_CONTACT_DATA": {
       "TITLE": "Ownership and Contact Information",
-      "DESCRIPTION_1": "TSP-Negocios S.A.C (hereinafter, TSP-Negocios), a closed corporation with RUC 20611473681, with its registered office at Carlos Alberto Izaguirre Avenue, 4, No. 216 Independencia, Lima (Peru), registered with the National Superintendency of Public Registries of the Government of Peru, with email [ventas@grupotsp.pe], is the owner of the website www.tspnegocios.com (hereinafter, Website). Users of the Website may contact TSP-Negocios by sending an email to: soporte@grupotsp.pe"
+      "DESCRIPTION_1": "TSP S.A.C (hereinafter, TSP), a closed corporation with RUC 20611473681, with its registered office at Carlos Alberto Izaguirre Avenue, 4, No. 216 Independencia, Lima (Peru), registered with the National Superintendency of Public Registries of the Government of Peru, with email [ventas@grupotsp.pe], is the owner of the website www.grupotsp.pe (hereinafter, Website). Users of the Website may contact TSP by sending an email to: soporte@grupotsp.pe"
     },
     "PURPOSE_AND_CONTENT_WEBSITE": {
       "TITLE": "Purpose and Content of the Website",
-      "DESCRIPTION_1": "This Website aims to inform Users about the services offered by TSP-Negocios related to businesses and to offer its products such as point-of-sale systems and business control systems. Access to the information on the Website does not imply or constitute any contractual relationship between the User and TSP-Negocios.",
-      "DESCRIPTION_2": "TSP-Negocios makes every effort to ensure that all information available on the Website is complete and up-to-date, periodically reviewing the Website's content. However, the User acknowledges and accepts that all information available on the Website is offered solely for informational purposes and that TSP-Negocios does not guarantee the accuracy, suitability, or completeness of the information contained on the Website. The User is solely responsible for the use they make of the information contained on the Website."
+      "DESCRIPTION_1": "This Website aims to inform Users about the services offered by TSP related to businesses and to offer its products such as point-of-sale systems and business control systems. Access to the information on the Website does not imply or constitute any contractual relationship between the User and TSP.",
+      "DESCRIPTION_2": "TSP makes every effort to ensure that all information available on the Website is complete and up-to-date, periodically reviewing the Website's content. However, the User acknowledges and accepts that all information available on the Website is offered solely for informational purposes and that TSP does not guarantee the accuracy, suitability, or completeness of the information contained on the Website. The User is solely responsible for the use they make of the information contained on the Website."
     },
     "TERMS_OF_USE": {
       "TITLE": "Terms of Use",
       "DESCRIPTION_1": "These general terms of use regulate access and navigation on the Website, whose access and use are free and do not require prior registration of Users.",
       "DESCRIPTION_2": "Access, use, or navigation on the Website grants the condition of User and implies knowledge, acceptance, and submission to the legal warnings and terms of use included in this Legal Notice in the version published at the time the User accesses the Website. The User accepts that the use of the Website takes place under their sole and exclusive responsibility. It is recommended that the User read this Legal Notice each time they access the Website.",
-      "DESCRIPTION_3": "TSP-Negocios reserves, without prior notice and at any time, the right to interrupt, temporarily suspend, deactivate, and/or cancel access to the Website or any of its integrated elements."
+      "DESCRIPTION_3": "TSP reserves, without prior notice and at any time, the right to interrupt, temporarily suspend, deactivate, and/or cancel access to the Website or any of its integrated elements."
     },
     "USE_OF_WEBSITE_AND_RESPONSIBILITY": {
       "TITLE": "Use of the Website and Responsibility",
-      "DESCRIPTION_1": "The User is responsible for the use they make of the Website and its content and does so at their own risk. By accessing, they accept and commit to using the Website, its contents, and services in accordance with the Law, this Legal Notice, good customs, and public order, and must respond to TSP-Negocios or third parties for any damage that may result from non-compliance with these obligations.",
+      "DESCRIPTION_1": "The User is responsible for the use they make of the Website and its content and does so at their own risk. By accessing, they accept and commit to using the Website, its contents, and services in accordance with the Law, this Legal Notice, good customs, and public order, and must respond to TSP or third parties for any damage that may result from non-compliance with these obligations.",
       "DESCRIPTION_2": "Do not destroy, alter, disable, or damage the data or software or electronic documents of the Website.",
       "DESCRIPTION_3": "Do not obstruct other Users' access to the Website.",
-      "DESCRIPTION_4": "Do not introduce viruses or any other device that causes or may cause an alteration in TSP-Negocios' systems.",
+      "DESCRIPTION_4": "Do not introduce viruses or any other device that causes or may cause an alteration in TSP' systems.",
       "DESCRIPTION_5": "Do not copy the Software.",
       "DESCRIPTION_6": "Do not distribute, share, sublicense, lend, lease, or make the Website available to third parties.",
       "DESCRIPTION_7": "Do not reverse engineer, decompile, or disassemble the Website Software or attempt to obtain its source code.",
       "DESCRIPTION_8": "Do not store, introduce, or disseminate on or from the Website defamatory, injurious, obscene, threatening, xenophobic information or material that incites violence, discrimination based on race, sex, ideology, religion, violates morality, public order, fundamental rights, public freedoms, honor, privacy, or the image of third parties, and in general that violates current regulations.",
       "DESCRIPTION_9": "The User is solely and exclusively responsible for accessing the Website and using the information and data contained.",
-      "DESCRIPTION_10": "TSP-Negocios will not be liable for any consequences, damages, or harm arising from the User's access or use of the Website and its content. TSP-Negocios, as the owner of the Website, is exempt from any liability that may arise from the User's actions. Thus, the User is solely responsible for any claim initiated by third parties against TSP-Negocios for the User's access or use of the Website."
+      "DESCRIPTION_10": "TSP will not be liable for any consequences, damages, or harm arising from the User's access or use of the Website and its content. TSP, as the owner of the Website, is exempt from any liability that may arise from the User's actions. Thus, the User is solely responsible for any claim initiated by third parties against TSP for the User's access or use of the Website."
     },
     "DISCLAIMER_OF_LIABILITY": {
       "TITLE": "Disclaimer of Liability",
-      "DESCRIPTION_1": "TSP-Negocios makes every effort to ensure that the use of the Website is carried out under the best conditions and to provide updated information. However, TSP-Negocios does not guarantee the absence of errors or omissions in the Website's content, nor does it guarantee uninterrupted access to the Website, being authorized to temporarily suspend access to the Website without prior notice.",
+      "DESCRIPTION_1": "TSP makes every effort to ensure that the use of the Website is carried out under the best conditions and to provide updated information. However, TSP does not guarantee the absence of errors or omissions in the Website's content, nor does it guarantee uninterrupted access to the Website, being authorized to temporarily suspend access to the Website without prior notice.",
       "DESCRIPTION_2": "· Any failure or interruption of communication, lack of availability, timeliness, maintenance, and effective operation of the Website and/or its services or content.",
       "DESCRIPTION_3": "· Non-compliance with Users' expectations regarding the Website or the server that provides it.",
       "DESCRIPTION_4": "· The invulnerability of the Website and/or the invulnerability of the security measures adopted on it.",
@@ -286,36 +288,36 @@
       "DESCRIPTION_7": "· Telephone or network failures caused by reasons beyond the control of the Website owner.",
       "DESCRIPTION_8": "· Delays or blockages in the operational functioning of the system caused by deficiencies or overloads in telephone lines or the Internet.",
       "DESCRIPTION_9": "· Unauthorized intrusions beyond the control of the Website owner, such as unauthorized access, copying, alteration, or deletion of information and data carried out by third parties on the Website.",
-      "DESCRIPTION_10": "TSP-Negocios employs all necessary technical resources to reduce such risks. However, Users are informed that such risks exist and that TSP-Negocios is not responsible for any damages that may occur."
+      "DESCRIPTION_10": "TSP employs all necessary technical resources to reduce such risks. However, Users are informed that such risks exist and that TSP is not responsible for any damages that may occur."
     },
     "INTELLECTUAL_AND_INDUSTRIAL_PROPERTY": {
       "TITLE": "Intellectual and Industrial Property",
       "DESCRIPTION_1": "The content of the Website is governed by Peruvian laws and is protected by national and international legislation on Intellectual and Industrial Property.",
-      "DESCRIPTION_2": "The Intellectual and Industrial Property Rights over all the information contained on this Website, including but not limited to trademarks, trade names, graphic design, drawings, logos, images, indexes, texts, audios, videos, software, design, and identifying signs, as well as their source codes, navigation structure, databases, and all elements contained therein, are protected by copyright and intellectual and industrial property rights of TSP-Negocios or third parties.",
-      "DESCRIPTION_3": "In no case shall access and use of the Website by Users be considered as a license of use or right to any asset of TSP-Negocios or its legitimate authors, and therefore shall not imply a transfer, assignment, or any type of waiver of Intellectual or Industrial Property rights.",
-      "DESCRIPTION_4": "Unless expressly authorized by TSP-Negocios or the third-party rights holders, any reproduction, copying, conversion, distribution, modification, deletion, or transformation, publication, commercialization, use of reverse engineering techniques, or any other means to obtain the source code and any other activity that may be carried out with the data and information contained on the Website, as well as its design and the selection and presentation model, is prohibited. Users use the information they can access through the Website exclusively for personal purposes and never for commercial or business purposes.",
-      "DESCRIPTION_5": "Unauthorized use of the information contained on the Website, its modification or deletion of data, as well as the violation of Intellectual or Industrial Property Rights of TSP-Negocios or third parties, will result in the legally established responsibilities, reserving TSP-Negocios the possibility of exercising the judicial actions that may be appropriate against Users who violate or infringe intellectual or industrial property rights."
+      "DESCRIPTION_2": "The Intellectual and Industrial Property Rights over all the information contained on this Website, including but not limited to trademarks, trade names, graphic design, drawings, logos, images, indexes, texts, audios, videos, software, design, and identifying signs, as well as their source codes, navigation structure, databases, and all elements contained therein, are protected by copyright and intellectual and industrial property rights of TSP or third parties.",
+      "DESCRIPTION_3": "In no case shall access and use of the Website by Users be considered as a license of use or right to any asset of TSP or its legitimate authors, and therefore shall not imply a transfer, assignment, or any type of waiver of Intellectual or Industrial Property rights.",
+      "DESCRIPTION_4": "Unless expressly authorized by TSP or the third-party rights holders, any reproduction, copying, conversion, distribution, modification, deletion, or transformation, publication, commercialization, use of reverse engineering techniques, or any other means to obtain the source code and any other activity that may be carried out with the data and information contained on the Website, as well as its design and the selection and presentation model, is prohibited. Users use the information they can access through the Website exclusively for personal purposes and never for commercial or business purposes.",
+      "DESCRIPTION_5": "Unauthorized use of the information contained on the Website, its modification or deletion of data, as well as the violation of Intellectual or Industrial Property Rights of TSP or third parties, will result in the legally established responsibilities, reserving TSP the possibility of exercising the judicial actions that may be appropriate against Users who violate or infringe intellectual or industrial property rights."
     },
     "THIRD_PARTY_LINKS": {
       "TITLE": "Third-Party Links",
       "DESCRIPTION_1": "This Website may contain links to other websites managed by third-party owners. Such domains have their own Terms of Use, Privacy Policy, and Cookie Policy. Therefore, we recommend that Users read them before registering and opening an account on such domains.",
-      "DESCRIPTION_2": "TSP-Negocios reserves the right to unilaterally and at any time remove the links that appear on this Website."
+      "DESCRIPTION_2": "TSP reserves the right to unilaterally and at any time remove the links that appear on this Website."
     },
     "SOCIAL_NETWORKS": {
       "TITLE": "Social Networks",
-      "DESCRIPTION_1": "This Website may contain links that allow Users to access different social networks owned and/or managed by third parties (e.g., Facebook, Instagram, YouTube). These links on the Website are solely intended to facilitate Users' access to social networks to inform them about events organized by TSP-Negocios.",
-      "DESCRIPTION_2": "The activation and use of these applications may involve the identification and authentication of the User (login/password) on the corresponding platforms, completely external to the Website and beyond the control of TSP-Negocios. By accessing such external networks, the User enters an environment not controlled by TSP-Negocios, so it will not assume any responsibility for the security configuration of such environments. These social networks and platforms have their own privacy policies and cookie processing policies. In this regard, all information and personal data that the User provides to these platforms will be under their sole and exclusive responsibility."
+      "DESCRIPTION_1": "This Website may contain links that allow Users to access different social networks owned and/or managed by third parties (e.g., Facebook, Instagram, YouTube). These links on the Website are solely intended to facilitate Users' access to social networks to inform them about events organized by TSP.",
+      "DESCRIPTION_2": "The activation and use of these applications may involve the identification and authentication of the User (login/password) on the corresponding platforms, completely external to the Website and beyond the control of TSP. By accessing such external networks, the User enters an environment not controlled by TSP, so it will not assume any responsibility for the security configuration of such environments. These social networks and platforms have their own privacy policies and cookie processing policies. In this regard, all information and personal data that the User provides to these platforms will be under their sole and exclusive responsibility."
     },
     "DATA_PROTECTION": {
       "TITLE": "Personal Data Protection",
-      "DESCRIPTION_1": "TSP-Negocios, as the owner of the Website, informs Users that it is responsible for the processing of personal data requested and provided during the use of the Website.",
-      "DESCRIPTION_2": "In accordance with the applicable legislation on data protection, TSP-Negocios respects Users' privacy and the confidentiality and security of personal data, adopting the necessary technical and organizational measures to prevent the loss, misuse, alteration, unauthorized access, and theft of personal data provided, considering the state of technology, the nature of the data, and the risks to which they are exposed.",
+      "DESCRIPTION_1": "TSP, as the owner of the Website, informs Users that it is responsible for the processing of personal data requested and provided during the use of the Website.",
+      "DESCRIPTION_2": "In accordance with the applicable legislation on data protection, TSP respects Users' privacy and the confidentiality and security of personal data, adopting the necessary technical and organizational measures to prevent the loss, misuse, alteration, unauthorized access, and theft of personal data provided, considering the state of technology, the nature of the data, and the risks to which they are exposed.",
       "DESCRIPTION_3": "The personal data of Website Users will only be obtained to be processed when they are adequate, relevant, and not excessive in relation to the scope and purposes determined, explicit, consented, and/or legitimate for which they have been collected. When personal data is collected through the Website, Users will be clearly and unequivocally informed in advance.",
-      "DESCRIPTION_4": "Users must visit TSP-Negocios' Privacy Policy on this same Website, where they will find detailed information regarding the protection of personal data."
+      "DESCRIPTION_4": "Users must visit TSP' Privacy Policy on this same Website, where they will find detailed information regarding the protection of personal data."
     },
     "SITE_UPDATE": {
       "TITLE": "Website Update",
-      "DESCRIPTION_1": "To improve the service for the benefit of Users, TSP-Negocios S.A.C. reserves the right to update, modify, or delete without prior notice the presentation and configuration of the Website, the content and information contained therein, as well as modify the Terms of Use, which will take effect from the moment of their publication on the Website and will be applicable from that date."
+      "DESCRIPTION_1": "To improve the service for the benefit of Users, TSP S.A.C. reserves the right to update, modify, or delete without prior notice the presentation and configuration of the Website, the content and information contained therein, as well as modify the Terms of Use, which will take effect from the moment of their publication on the Website and will be applicable from that date."
     },
     "WEB_INTEROPERABILITY_AND_FUNCTIONALITY": {
       "TITLE": "Website Compatibility and Functionality",
@@ -327,7 +329,7 @@
     },
     "APPLICABLE_LEGISLATION_AND_JURISDICTION": {
       "TITLE": "Applicable Legislation and Jurisdiction",
-      "DESCRIPTION_1": "Any issue or controversy that may arise regarding the application of this Legal Notice between the User and TSP-Negocios is governed by the applicable Peruvian regulations in force. And whenever the applicable regulations allow the parties to submit to a specific jurisdiction, the User expressly waives the jurisdiction that may correspond to them and submits to the Courts and Tribunals of Lima for the resolution of the controversy."
+      "DESCRIPTION_1": "Any issue or controversy that may arise regarding the application of this Legal Notice between the User and TSP is governed by the applicable Peruvian regulations in force. And whenever the applicable regulations allow the parties to submit to a specific jurisdiction, the User expressly waives the jurisdiction that may correspond to them and submits to the Courts and Tribunals of Lima for the resolution of the controversy."
     },
     "MODIFICATIONS": {
       "LAST_UPDATE": "Last update date: December 12, 2023."
@@ -336,15 +338,15 @@
   "PRIVACY": {
     "POLICY": {
       "TITLE": "Privacy Policy",
-      "DESCRIPTION_1": "We are pleased that you visit the official website of TSP Negocios www.tspnegocios.com (hereinafter, Website) and appreciate your interest.",
-      "DESCRIPTION_2": "TSP-Negocios S.A.C (hereinafter, TSP Negocios) is firmly committed to complying with current legislation on personal data protection to ensure the privacy, secrecy, and security of Users' personal data by applying appropriate technical and organizational measures for this purpose.",
-      "DESCRIPTION_3": "This Privacy Policy aims to inform Users about the processing that TSP Negocios performs on the personal data provided by the User when accessing, browsing, and using the services offered on the Website, as well as the security measures adopted, the exercise of Users' rights, and the means of contact.",
-      "DESCRIPTION_4": "Personal data will only be obtained by TSP Negocios for processing when they are adequate, relevant, and not excessive in relation to the scope and purposes determined, explicit, and legitimate for which they have been obtained.",
+      "DESCRIPTION_1": "We are pleased that you visit the official website of TSP www.grupotsp.pe (hereinafter, Website) and appreciate your interest.",
+      "DESCRIPTION_2": "TSP S.A.C (hereinafter, TSP) is firmly committed to complying with current legislation on personal data protection to ensure the privacy, secrecy, and security of Users' personal data by applying appropriate technical and organizational measures for this purpose.",
+      "DESCRIPTION_3": "This Privacy Policy aims to inform Users about the processing that TSP performs on the personal data provided by the User when accessing, browsing, and using the services offered on the Website, as well as the security measures adopted, the exercise of Users' rights, and the means of contact.",
+      "DESCRIPTION_4": "Personal data will only be obtained by TSP for processing when they are adequate, relevant, and not excessive in relation to the scope and purposes determined, explicit, and legitimate for which they have been obtained.",
       "DESCRIPTION_5": "Below, in compliance with current legislation on personal data protection, we provide Users with the following information:"
     },
     "RESPONSIBLE": {
       "TITLE": "Data Controller",
-      "DESCRIPTION_1": "TSP-Negocios S.A.C (hereinafter, TSP Negocios), a closed corporation with RUC 20611473681, with its registered office at Carlos Alberto Izaguirre Avenue, 4, No. 216 Independencia, Lima (Peru), registered with the National Superintendency of Public Registries of the Government of Peru, with email [ventas@grupotsp.pe], is the owner of the website www.tspnegocios.com (hereinafter, Website).",
+      "DESCRIPTION_1": "TSP S.A.C (hereinafter, TSP), a closed corporation with RUC 20611473681, with its registered office at Carlos Alberto Izaguirre Avenue, 4, No. 216 Independencia, Lima (Peru), registered with the National Superintendency of Public Registries of the Government of Peru, with email [ventas@grupotsp.pe], is the owner of the website www.grupotsp.pe (hereinafter, Website).",
       "DESCRIPTION_2": "Users can contact the Data Controller through the following email address: soporte@grupotsp.pe"
     },
     "DEFINITIONS": {
@@ -358,51 +360,51 @@
     },
     "PURPOSE": {
       "TITLE": "Purpose of Processing",
-      "DESCRIPTION_1": "To manage information requests received through the 'Contact' function on the Website. To manage the data entered by Website Users. To fulfill this purpose. When the User clicks 'Send Message,' they will be indicating that they have read and accept the Privacy Policy of www.tspnegocios.com."
+      "DESCRIPTION_1": "To manage information requests received through the 'Contact' function on the Website. To manage the data entered by Website Users. To fulfill this purpose. When the User clicks 'Send Message,' they will be indicating that they have read and accept the Privacy Policy of www.grupotsp.pe."
     },
     "PERSONAL_DATA": {
       "TITLE": "Category of Personal Data",
-      "DESCRIPTION_1": "The category of data processed by TSP Negocios on the Website includes:",
-      "DESCRIPTION_2": "Email for Contact purposes. Identifying data: User identification. TSP Negocios uses this data solely to contact the User."
+      "DESCRIPTION_1": "The category of data processed by TSP on the Website includes:",
+      "DESCRIPTION_2": "Email for Contact purposes. Identifying data: User identification. TSP uses this data solely to contact the User."
     },
     "LEGITIMACY": {
       "TITLE": "Legal Basis",
-      "DESCRIPTION_1": "The legal basis for managing communications received through the 'Contact' function is the legitimate interest of TSP Negocios.",
-      "DESCRIPTION_2": "The legal basis for processing the personal data of Users who enter their data in the Contact form is the express consent granted when contacting TSP Negocios with legitimate interest.",
+      "DESCRIPTION_1": "The legal basis for managing communications received through the 'Contact' function is the legitimate interest of TSP.",
+      "DESCRIPTION_2": "The legal basis for processing the personal data of Users who enter their data in the Contact form is the express consent granted when contacting TSP with legitimate interest.",
       "DESCRIPTION_3": "The User may revoke consent at any time. However, the processing of personal data carried out prior to the revocation of consent will remain lawful."
     },
     "PRESERVATION": {
       "TITLE": "Data Retention",
-      "DESCRIPTION_1": "Data will be retained for the strictly necessary period to fulfill the purpose for which they were collected. However, TSP Negocios may retain the data to make them available to competent authorities or to address potential claims, in which case the data will be kept blocked until the expiration of the limitation periods, at which point they will be deleted with appropriate security measures.",
-      "DESCRIPTION_2": "Once the retention period has ended, personal data may be anonymized for statistical purposes by TSP Negocios."
+      "DESCRIPTION_1": "Data will be retained for the strictly necessary period to fulfill the purpose for which they were collected. However, TSP may retain the data to make them available to competent authorities or to address potential claims, in which case the data will be kept blocked until the expiration of the limitation periods, at which point they will be deleted with appropriate security measures.",
+      "DESCRIPTION_2": "Once the retention period has ended, personal data may be anonymized for statistical purposes by TSP."
     },
     "COMMUNICATION": {
       "TITLE": "Data Communication",
-      "DESCRIPTION_1": "TSP Negocios will not transfer the data provided by Website Users to third parties, except with prior and express consent from them or if required by law (Public Administrations, Law Enforcement, Public Prosecutor's Office, Spanish Data Protection Agency, etc.)."
+      "DESCRIPTION_1": "TSP will not transfer the data provided by Website Users to third parties, except with prior and express consent from them or if required by law (Public Administrations, Law Enforcement, Public Prosecutor's Office, Spanish Data Protection Agency, etc.)."
     },
     "USER_RIGHTS": {
       "TITLE": "User Rights",
-      "DESCRIPTION_1": "TSP Negocios informs Users that regarding the processing of their personal data, they may exercise the following rights:",
+      "DESCRIPTION_1": "TSP informs Users that regarding the processing of their personal data, they may exercise the following rights:",
       "ITEM_1": "Right to revoke the consent granted at any time.",
-      "ITEM_2": "Right to obtain information about whether TSP Negocios processes the User's personal data.",
+      "ITEM_2": "Right to obtain information about whether TSP processes the User's personal data.",
       "ITEM_3": "Right of access, rectification, portability, and deletion of their data, and to limit or oppose processing.",
       "ITEM_4": "Right not to be subject to automated individual decisions, including profiling.",
-      "ITEM_5": "Right to file a complaint with the National Authority for Personal Data Protection when the User considers that TSP Negocios has violated their rights in the processing of personal data.",
-      "DESCRIPTION_2": "Users may exercise their rights at any time and free of charge by writing to TSP Negocios S.A.C. by postal mail to the address Carlos Alberto Izaguirre Avenue, 4, No. 216 Independencia, Lima (Peru) or by email to [……soporte@grupotsp.pe…….], in both cases accompanied by a copy of the National Identity Document or equivalent document proving their identity."
+      "ITEM_5": "Right to file a complaint with the National Authority for Personal Data Protection when the User considers that TSP has violated their rights in the processing of personal data.",
+      "DESCRIPTION_2": "Users may exercise their rights at any time and free of charge by writing to TSP S.A.C. by postal mail to the address Carlos Alberto Izaguirre Avenue, 4, No. 216 Independencia, Lima (Peru) or by email to [……soporte@grupotsp.pe…….], in both cases accompanied by a copy of the National Identity Document or equivalent document proving their identity."
     },
     "SOCIALS": {
       "TITLE": "Social Networks",
-      "DESCRIPTION_1": "This Website may contain links that allow access to different social networks owned and managed by third parties (e.g., Facebook, Instagram, YouTube). These links on the Website are solely intended to facilitate Users' access to social networks to inform them about events organized by TSP Negocios.",
-      "DESCRIPTION_2": "The activation and use of these applications may involve the identification and authentication of the User (login/password) on the corresponding platforms, completely external to the Website and beyond the control of TSP Negocios. These social networks and platforms have their own privacy policies and cookie processing policies. In this regard, all information and personal data that the User provides to these platforms will be under their sole and exclusive responsibility."
+      "DESCRIPTION_1": "This Website may contain links that allow access to different social networks owned and managed by third parties (e.g., Facebook, Instagram, YouTube). These links on the Website are solely intended to facilitate Users' access to social networks to inform them about events organized by TSP.",
+      "DESCRIPTION_2": "The activation and use of these applications may involve the identification and authentication of the User (login/password) on the corresponding platforms, completely external to the Website and beyond the control of TSP. These social networks and platforms have their own privacy policies and cookie processing policies. In this regard, all information and personal data that the User provides to these platforms will be under their sole and exclusive responsibility."
     },
     "COOKIES": {
       "TITLE": "Cookies",
       "DESCRIPTION_1": "This Website does not use cookies to collect information from Users; only its own session cookies are used for technical purposes - those that allow the User to navigate securely through the Website and use the various functions and services offered on the Website. For more detailed information, access the Cookie Policy.",
-      "DESCRIPTION_2": "However, this Website may contain links to third-party websites with privacy and cookie policies outside of TSP Negocios, which the User may decide to accept or reject when accessing those websites."
+      "DESCRIPTION_2": "However, this Website may contain links to third-party websites with privacy and cookie policies outside of TSP, which the User may decide to accept or reject when accessing those websites."
     },
     "MODIFICATIONS": {
       "TITLE": "Privacy Policy Modifications",
-      "DESCRIPTION": "TSP Negocios reserves the right to modify this Privacy Policy based on legislative, regulatory requirements, or to adapt this policy to the instructions issued by the National Authority for Personal Data Protection (ANPD, Peru) and/or the European Data Protection Board. Therefore, Users are advised to visit it periodically. When significant changes occur in this Policy, they will be published on the Website.",
+      "DESCRIPTION": "TSP reserves the right to modify this Privacy Policy based on legislative, regulatory requirements, or to adapt this policy to the instructions issued by the National Authority for Personal Data Protection (ANPD, Peru) and/or the European Data Protection Board. Therefore, Users are advised to visit it periodically. When significant changes occur in this Policy, they will be published on the Website.",
       "LAST_UPDATE": "Last update date: December 12, 2023."
     }
 	},

@@ -1,35 +1,59 @@
 ---
 import { getI18N } from "@/i18n";
+import Button from "@/components/Button.tsx"
+import {
+  getLangFromUrl,
+  useTranslations,
+  useTranslatedPath,
+} from "@/i18n/utils";
 
 const { currentLocale } = Astro;
 const i18n = getI18N({currentLocale});
+const lang = getLangFromUrl(Astro.url);
+const translatePath = useTranslatedPath(lang);
 ---
 
 <div class="relative w-auto max-w-[100vw] xl:h-full">
-    <div class="inset-0 h-full z-10 m-auto flex flex-col items-center w-full">
-      <div class="absolute w-full flex flex-col items-center">
+    <div class="absolute inset-0 h-full z-10 m-auto flex flex-col items-center w-full">
+      <section class="absolute animate-fade-up w-full flex flex-col items-center">
         <img 
-          class="animated animatedFadeInUp fadeInUp absolute top-30 z-10 w-[500px] left-0 right-0 m-auto flex" 
+          class="absolute top-30 z-10 w-[500px] left-0 right-0 m-auto flex" 
           alt="TSP" 
           src="/images/logoTSP.png"
         />
       
-        <div class="animated fadeInUp mt-[400px] sm:mt-[450px] lg:mt-[500px] text-center z-20 font-mono">
-          <h2 class="text-white text-xl sm:text-5xl font-semibold ">
+        <div class="mt-[400px] sm:mt-[450px] lg:mt-[500px] text-center z-20 font-mono">
+          <h2 class="text-white text-xl sm:text-5xl font-semibold lg:mb-24 mb-12">
             {i18n.VIDEO_SUBTITLE}
           </h2>
+
+          <div class="flex flex-col sm:flex-row justify-center items-center gap-5 sm:gap-20 lg:gap-40">
+            <Button
+              className="lg:text-3xl md:px-5 md:text-xl text-xs w-fit font-medium no-underline px-3 py-3 border border-solid border-white rounded-full uppercase _button_10p5w_1 text-white"
+              target=""
+              url={translatePath("/contacto/")}
+            >{i18n.VIDEO_BUTTON_1}</Button>
+        
+            <Button
+              className="lg:text-3xl md:px-5 md:text-xl text-xs w-fit font-medium no-underline px-3 py-3 border border-solid border-white rounded-full uppercase _button_10p5w_1 text-white"
+              target=""
+              url={translatePath("/servicio/")}
+            >{i18n.VIDEO_BUTTON_2}</Button>
+          </div>
         </div>
-      </div>
-        <video id="main-video" preload="metadata" playsinline class="video h-[85vh] w-full object-cover object-top animate-duration-[2s] animate-ease-in-out " src="/2.webm" autoplay loop muted style="clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 50% 100%, 0 85%);"></video>
+      </section>
     </div>
+    <video id="main-video" preload="metadata" playsinline class="video h-[100vh] w-full object-cover object-top animate-duration-[2s] animate-ease-in-out " 
+      src="/2.webm" autoplay loop muted style="clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 50% 100%, 0 85%);">
+    </video>
+</div>
     <video
     class="video absolute -bottom-20 -z-40 blur-3xl w-screen h-[40vh] object-cover object-top animate-duration-[2s] animate-ease-in-out"
     autoplay
     loop
     muted
     preload="metadata"
-    src=""
-  >
+    src="">
   </video>
 </div>
 
